@@ -1,0 +1,694 @@
+2018-02-28 15:26:10 [192.168.1.115][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.115
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:75
+2018-02-28 15:26:10 [192.168.1.115][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.115
+2018-02-28 15:26:10 [192.168.1.115][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.115'
+    'REMOTE_PORT' => '51449'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'www.lf.com'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => 'www.lf.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20131029 Firefox/17.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519831570.7165
+    'REQUEST_TIME' => 1519831570
+]
+2018-02-28 15:27:10 [192.168.1.115][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.115
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:75
+2018-02-28 15:27:10 [192.168.1.115][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.115
+2018-02-28 15:27:10 [192.168.1.115][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'vm7ml3lgqd4oboibrum18rfpt4'
+    '_csrf-frontend' => '4a12b1342aacaeab3b08bf3f054da694b09b214711c7abe7d443d1612ef77c13a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"uRFYr7exAnsRq6ICmgD7Ld8Xih3fOq8a\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.115'
+    'REMOTE_PORT' => '51449'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'www.lf.com'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => 'www.lf.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20131029 Firefox/17.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=vm7ml3lgqd4oboibrum18rfpt4; _csrf-frontend=4a12b1342aacaeab3b08bf3f054da694b09b214711c7abe7d443d1612ef77c13a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22uRFYr7exAnsRq6ICmgD7Ld8Xih3fOq8a%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519831630.7436
+    'REQUEST_TIME' => 1519831630
+]
+2018-02-28 15:28:19 [192.168.1.115][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.115
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:75
+2018-02-28 15:28:19 [192.168.1.115][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.115
+2018-02-28 15:28:19 [192.168.1.115][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'vm7ml3lgqd4oboibrum18rfpt4'
+    '_csrf-frontend' => '4a12b1342aacaeab3b08bf3f054da694b09b214711c7abe7d443d1612ef77c13a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"uRFYr7exAnsRq6ICmgD7Ld8Xih3fOq8a\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.115'
+    'REMOTE_PORT' => '51464'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'www.lf.com'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => 'www.lf.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20131029 Firefox/17.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=vm7ml3lgqd4oboibrum18rfpt4; _csrf-frontend=4a12b1342aacaeab3b08bf3f054da694b09b214711c7abe7d443d1612ef77c13a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22uRFYr7exAnsRq6ICmgD7Ld8Xih3fOq8a%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519831699.5885
+    'REQUEST_TIME' => 1519831699
+]
+2018-02-28 15:37:09 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:75
+2018-02-28 15:37:09 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:37:09 [192.168.1.112][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '19986'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832229.0803
+    'REQUEST_TIME' => 1519832229
+]
+2018-02-28 15:37:22 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:97
+2018-02-28 15:37:22 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:37:22 [192.168.1.112][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '19988'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832242.6138
+    'REQUEST_TIME' => 1519832242
+]
+2018-02-28 15:37:27 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:75
+2018-02-28 15:37:27 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:37:27 [192.168.1.112][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '19986'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832247.0291
+    'REQUEST_TIME' => 1519832247
+]
+2018-02-28 15:44:45 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:143
+2018-02-28 15:44:45 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:44:45 [192.168.1.112][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20181'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:91/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832685.0378
+    'REQUEST_TIME' => 1519832685
+]
+2018-02-28 15:44:46 [192.168.1.112][-][ai34fl1t8dsoeg8rrv1fp66im3][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required.' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/captcha/Captcha.php:175
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/captcha/Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Widget.php(137): yii\BaseYii::createObject(Array)
+#7 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(781): yii\base\Widget::widget(Array)
+#8 /home/liufan/yii2/mygit/lf_center/frontend/views/site/contact.php(35): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(frontend\controllers\SiteController))
+#12 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('contact', Array, Object(frontend\controllers\SiteController))
+#13 /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php(132): yii\base\Controller->render('contact', Array)
+#14 [internal function]: frontend\controllers\SiteController->actionContact()
+#15 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('contact', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#19 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /home/liufan/yii2/mygit/lf_center/frontend/web/index.php(17): yii\base\Application->run()
+#21 {main}
+2018-02-28 15:44:46 [192.168.1.112][-][ai34fl1t8dsoeg8rrv1fp66im3][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:44:46 [192.168.1.112][-][ai34fl1t8dsoeg8rrv1fp66im3][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:44:46 [192.168.1.112][-][ai34fl1t8dsoeg8rrv1fp66im3][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20185'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:91/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832686.4471
+    'REQUEST_TIME' => 1519832686
+]
+2018-02-28 15:44:48 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:143
+2018-02-28 15:44:48 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:44:48 [192.168.1.112][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20183'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:91/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832688.7889
+    'REQUEST_TIME' => 1519832688
+]
+2018-02-28 15:44:50 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:164
+2018-02-28 15:44:50 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:44:50 [192.168.1.112][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20183'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:91/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832690.4447
+    'REQUEST_TIME' => 1519832690
+]
+2018-02-28 15:44:53 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:97
+2018-02-28 15:44:53 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:44:53 [192.168.1.112][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20183'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:91/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832693.3013
+    'REQUEST_TIME' => 1519832693
+]
+2018-02-28 15:44:54 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+    in /home/liufan/yii2/mygit/lf_center/frontend/views/layouts/main.php:80
+    in /home/liufan/yii2/mygit/lf_center/frontend/controllers/SiteController.php:75
+2018-02-28 15:44:54 [192.168.1.112][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.112
+2018-02-28 15:44:54 [192.168.1.112][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'PHPSESSID' => 'isf43uhagkogu2mk395tjiv8q3'
+    'advanced-frontend' => 'ai34fl1t8dsoeg8rrv1fp66im3'
+    '_csrf-frontend' => 'b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC\";}'
+    'advanced-backend' => '5aodb2hqrnie1fnfqu34ifnca7'
+    '_csrf-backend' => 'a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20184'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '91'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/frontend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:91'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:91/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; PHPSESSID=isf43uhagkogu2mk395tjiv8q3; advanced-frontend=ai34fl1t8dsoeg8rrv1fp66im3; _csrf-frontend=b090f7d6dc27fbb4a825b0775b8f3177fa8660f6d1c6c78ee8a4284f24a62470a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22L4ze6G3S9f0xbHDuY0sd723tnqnBKnLC%22%3B%7D; advanced-backend=5aodb2hqrnie1fnfqu34ifnca7; _csrf-backend=a65f8e4ada2ee5496b939a4b5cceb096989ee8f219bbe850c3df4eb56f413ba1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gnXafqDsDJEq8rz-VuJXaf6f2trrZZNV%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1519832694.6466
+    'REQUEST_TIME' => 1519832694
+]
