@@ -1,1 +1,1 @@
-{"template":"default","enableI18N":"1","messageCategory":"backend\/pms_user","baseControllerClass":"yii\\web\\Controller","indexWidgetType":"grid"}
+{"template":"default","enableI18N":"1","messageCategory":"backend\/pms_user_role","baseControllerClass":"yii\\web\\Controller","indexWidgetType":"grid"}
