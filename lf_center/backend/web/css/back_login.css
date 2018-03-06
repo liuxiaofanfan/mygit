@@ -11,13 +11,16 @@ body, .app
 }
 .header-content
 {
+	position: relative;
 	width: 960px;
 	height: 80px;
 	margin: 0 auto;
 }
 .head-left
 {
-	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 .head-left .icon
 {
@@ -35,6 +38,16 @@ body, .app
 	line-height: 80px;
 	font-size: 26px;
 	color: #797878;
+}
+.head-right
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.head-right .lang
+{
+	
 }
 .login-div
 {
