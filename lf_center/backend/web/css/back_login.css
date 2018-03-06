@@ -18,9 +18,11 @@ body, .app
 .header-content .icon
 {
 	display: inline-block;
-	width: 80px;
-	height: 80px;
+	width: 56px;
+	height: 56px;
 	background: url(../pic/logo.png) no-repeat center center;
+	background-size: cover;
+	margin-top: 12px;
 }
 .login-div
 {
