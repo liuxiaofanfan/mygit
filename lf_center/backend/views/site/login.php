@@ -31,7 +31,7 @@ $fieldOptions2 = [
                 <span class="name">点盈后台管理平台</span>
             </div>
             <div class="head-right">
-                <span class="lang">简体中文</span>
+                <span class="lang">简体中文1</span>
             </div>
         </div>
     </div>
