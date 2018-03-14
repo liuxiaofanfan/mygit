@@ -36,7 +36,7 @@ class LfPmsUser extends \yii\db\ActiveRecord  implements IdentityInterface
             [['user_id'], 'string', 'max' => 32],
             [['user_name'], 'string', 'max' => 10],
             [['account'], 'string', 'max' => 30],
-            [['password'], 'string', 'max' => 50],
+            [['password'], 'string', 'max' => 100],
             [['isModPwd'], 'string', 'max' => 1],
             [['user_id'], 'unique'],
         ];
