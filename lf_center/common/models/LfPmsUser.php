@@ -30,7 +30,7 @@ class LfPmsUser extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            // [['user_id'], 'required'],
+            [['user_id'], 'required'],
             [['isDel'], 'integer'],
             [['user_id'], 'string', 'max' => 32],
             [['user_name'], 'string', 'max' => 10],
