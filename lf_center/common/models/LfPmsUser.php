@@ -139,6 +139,8 @@ class LfPmsUser extends \yii\db\ActiveRecord  implements IdentityInterface
 
     public function validatePassword($password)
     {
+        echo "~~~~~~~~~~~~~".$password."\n";
+        echo "~~~~~~~~~~~~~".$this->password;
         return Yii::$app->security->validatePassword($password, $this->password);
     }
     
