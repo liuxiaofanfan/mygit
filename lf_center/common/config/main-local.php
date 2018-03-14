@@ -1,7 +1,13 @@
 <?php
 return [
     'components' => [
-        'db' => require(__DIR__ . "/db_base.php"),
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=lf_base',
+            'username' => 'liufan',
+            'password' => '123456',
+            'charset' => 'utf8',
+        ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             'viewPath' => '@common/mail',
