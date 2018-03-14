@@ -16,10 +16,11 @@ return [
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],
+        #用户核心组件
         'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
+            'identityClass' => 'common\models\LfPmsUser',
+            'enableAutoLogin' => false,
+            'authTimeout' => 10,
         ],
         'session' => [
             // this is the name of the session cookie used for login on the backend
