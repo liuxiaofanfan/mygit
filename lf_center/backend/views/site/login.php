@@ -1,6 +1,7 @@
 <?php
-use yii\helpers\Html;
+use backend\assets\AppAsset;
 use yii\bootstrap\ActiveForm;
+use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -8,7 +9,8 @@ use yii\bootstrap\ActiveForm;
 
 $this->title = 'Sign In';
 
-$this->registerCssFile("@backend/web/css/back_login.css");
+AppAsset::register($this);
+AppAsset::addCss($this, Yii::$app->request->baseUrl.'/css/back_login.css');
 ?>
 
 <div class="app">
