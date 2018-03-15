@@ -22,3 +22,13 @@
 		width: auto;
 	}
 }
+.banner
+{
+	background: url(../pic/login_bg.png) no-repeat 0 0;
+}
+.login-div
+{
+	width: 960px;
+	height: 460px;
+	border: 1px solid green;
+}
