@@ -9,23 +9,27 @@
 	width: 960px;
 	height: 80px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 .login-div
 {
 	width: 960px;
 	height: 460px;
 	margin: 0 auto;
-	border: 1px solid green;
+}
+.content
+{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
 }
 @media screen and (max-width: 1080px){
-    .header-content, .login-div
+    .header-content, .login-div, .content
 	{
 		width: 740px;
 	}
 }
 @media screen and (max-width: 768px){
-    .header-content, .login-div
+    .header-content, .login-div, .content
 	{
 		width: auto;
 	}
