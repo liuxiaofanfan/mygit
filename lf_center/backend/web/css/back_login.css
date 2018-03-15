@@ -90,4 +90,6 @@
 .role-item
 {
 	border: 1px solid #e7e7eb !important;
+	height: 260px;
+	margin-right: 10px;
 }
