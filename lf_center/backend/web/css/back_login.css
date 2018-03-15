@@ -31,5 +31,6 @@
 {
 	width: 960px;
 	height: 460px;
+	margin: 0 auto;
 	border: 1px solid green;
 }
