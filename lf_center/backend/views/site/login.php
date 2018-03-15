@@ -43,12 +43,12 @@ $fieldOptions2 = [
                         ->label(false)
                         ->passwordInput(['placeholder' => $model->getAttributeLabel('password')]) ?>
 
-                    <div class="row">
+                    <div>
                         <?= $form->field($model, 'rememberMe')->checkbox() ?>
                     </div>
 
-                    <div class="row">
-                        <?= Html::submitButton('Sign in', ['class' => 'btn btn-success btn-block btn-flat', 'name' => 'login-button']) ?>
+                    <div>
+                        <?= Html::submitButton('Sign in', ['class' => 'btn btn-success btn-block btn-flat', 'name' => 'login-button', 'id' => 'do-login']) ?>
                     </div>
         <?php ActiveForm::end(); ?>
             </div>
