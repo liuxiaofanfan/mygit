@@ -18,7 +18,9 @@ AppAsset::addCss($this, 'css/back_login.css');
         <div class="header-content"></div>
     </div>
     <div class="banner">
-        <div class="login-div"></div>
+        <div class="login-div">
+            <div class="login-table"></div>
+        </div>
     </div>
     <div class="footer"></div>
 </div>

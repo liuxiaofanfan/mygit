@@ -26,6 +26,7 @@
 .banner
 {
 	background: url(../pic/login_bg.png) no-repeat center center;
+	background-color: #090b1a;
 }
 .login-div
 {
@@ -33,4 +34,13 @@
 	height: 460px;
 	margin: 0 auto;
 	border: 1px solid green;
+}
+.login-div
+{
+	width: 330px;
+	float: right;
+	margin-top: 26px;
+	padding: 36px 35px;
+	border-radius: 2px;
+	height: 240px;
 }
