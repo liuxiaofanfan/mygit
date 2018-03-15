@@ -58,9 +58,18 @@ $fieldOptions2 = [
         <div class="notice">
             <div class="role-label">账号分类说明</div>
             <div class="my-boxs">
-                <div class="my-box role-item"></div>
-                <div class="my-box role-item"></div>
-                <div class="my-box role-item"></div>
+                <div class="my-box role-item role-user">
+                    <div class="role-pic"></div>
+                    <div class="role-msg"></div>
+                </div>
+                <div class="my-box role-item role-admin">
+                    <div class="role-pic"></div>
+                    <div class="role-msg"></div>
+                </div>
+                <div class="my-box role-item role-god">
+                    <div class="role-pic"></div>
+                    <div class="role-msg"></div>
+                </div>
             </div>
         </div>
     </div>

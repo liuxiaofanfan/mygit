@@ -93,3 +93,22 @@
 	height: 260px;
 	margin-right: 10px;
 }
+.role-user .role-pic
+{
+	background: url(../pic/login_icons.png) 0 -2229px no-repeat;
+}
+.role-admin .role-pic
+{
+	background: url(../pic/login_icons.png) 0 -2319px no-repeat;
+}
+.role-gold .role-pic
+{
+	background: url(../pic/login_icons.png) 0 -2409px no-repeat;
+}
+.role-tiem .role-pic
+{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 40px auto;
+}
