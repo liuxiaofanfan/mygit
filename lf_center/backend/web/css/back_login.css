@@ -1,6 +1,13 @@
-.app
+.header
 {
 	width: 100%;
-	height: 100%;
-	background-color: red;
+	height: 80px;
+	background-color: #fff;
+}
+.header-content
+{
+	width: 76%
+	max-width: 960px;
+	margin: 0 auto;
+	border: 1px solid red;
 }
