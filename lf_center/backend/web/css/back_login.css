@@ -2,6 +2,7 @@
 {
 	width: 100%;
 	background-color: #fff;
+	border-top: 4px solid #44B549;
 }
 .header-content
 {
@@ -24,7 +25,7 @@
 }
 .banner
 {
-	background: url(../pic/login_bg.png) no-repeat 0 0;
+	background: url(../pic/login_bg.png) no-repeat center center;
 }
 .login-div
 {
