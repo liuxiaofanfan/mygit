@@ -54,6 +54,16 @@ $fieldOptions2 = [
             </div>
         </div>
     </div>
+    <div class="content">
+        <div class="notice">
+            <div class="role-label">账号分类说明</div>
+            <div class="my-boxs">
+                <div class="my-box"></div>
+                <div class="my-boxs"></div>
+                <div class="my-boxs"></div>
+            </div>
+        </div>
+    </div>
     <div class="footer"></div>
 </div>
 
