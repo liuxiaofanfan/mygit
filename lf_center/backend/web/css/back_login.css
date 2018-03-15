@@ -90,6 +90,7 @@
 .role-item
 {
 	border: 1px solid #e7e7eb !important;
+	width: 310px;
 	height: 260px;
 	margin-right: 10px;
 }
@@ -101,14 +102,14 @@
 {
 	background: url(../pic/login_icons.png) 0 -2319px no-repeat;
 }
-.role-gold .role-pic
+.role-god .role-pic
 {
 	background: url(../pic/login_icons.png) 0 -2409px no-repeat;
 }
 .role-item .role-pic
 {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 86px;
+	height: 86px;
 	margin: 40px auto;
 }
