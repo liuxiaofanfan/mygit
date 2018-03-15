@@ -1,6 +1,7 @@
 .app
 {
 	background-color: #fff;
+	font-family: "Microsoft Yahei";
 }
 .header
 {
@@ -58,7 +59,6 @@
 	font-size: 20px;
 	font-weight: 400;
 	font-style: normal;
-	font-family: "Microsoft YaHei";
 	padding-bottom: 10px;
 }
 #do-login
@@ -83,14 +83,13 @@
 	color: #222;
 	font-size: 20px;
 	font-weight: 400;
-	font-family: "Microsoft Yahei";
 	font-style: normal;
 	margin: 20px 0px;
 }
 .role-item
 {
 	border: 1px solid #e7e7eb !important;
-	max-height: 300px;
+	height: 260px;
 	margin-right: 10px;
 }
 .role-user .role-pic
