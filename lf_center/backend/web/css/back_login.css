@@ -45,3 +45,9 @@
 	border-radius: 2px;
 	background-color: #fff;
 }
+.login-label
+{
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+}
