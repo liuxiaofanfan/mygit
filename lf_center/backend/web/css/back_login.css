@@ -6,19 +6,26 @@
 }
 .header-content
 {
-	height: 80px;
 	width: 960px;
+	height: 80px;
 	margin: 0 auto;
 	border: 1px solid red;
 }
+.login-div
+{
+	width: 960px;
+	height: 460px;
+	margin: 0 auto;
+	border: 1px solid green;
+}
 @media screen and (max-width: 1080px){
-    .header-content
+    .header-content, .login-div
 	{
 		width: 740px;
 	}
 }
 @media screen and (max-width: 768px){
-    .header-content
+    .header-content, .login-div
 	{
 		width: auto;
 	}
@@ -28,17 +35,10 @@
 	background: url(../pic/login_bg.png) no-repeat center center;
 	background-color: #090b1a;
 }
-.login-div
-{
-	width: 960px;
-	height: 460px;
-	margin: 0 auto;
-	border: 1px solid green;
-}
 .login-table
 {
 	width: 400px;
-	height: 308px;
+	min-height: 308px;
 	float: right;
 	margin-top: 24px;
 	padding: 36px 35px;
