@@ -1,3 +1,7 @@
+.app
+{
+	background-color: #fff;
+}
 .header
 {
 	width: 100%;
@@ -73,4 +77,17 @@
 {
 	height: 42px !important;
 	line-height: 42px !important;
+}
+.role-label
+{
+	color: #222;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Microsoft Yahei";
+	font-style: normal;
+	margin: 20px 0px;
+}
+.role-item
+{
+	border: 1px solid #e7e7eb !important;
 }
