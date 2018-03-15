@@ -6,22 +6,17 @@
 .header-content
 {
 	height: 80px;
+	width: 960px;
 	margin: 0 auto;
 	border: 1px solid red;
 }
-@media screen and (min-width: 1280px){
-    .header-content
-	{
-		width: 960px;
-	}
-}
-@media screen and (min-width: 1080px){
+@media screen and (max-width: 1080px){
     .header-content
 	{
 		width: 740px;
 	}
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .header-content
 	{
 		width: auto;
