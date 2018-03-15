@@ -57,22 +57,22 @@ $fieldOptions2 = [
     <div class="the-content">
         <div class="notice">
             <div class="role-label">账号分类说明</div>
-            <div class="my-boxs">
-                <div class="my-box role-item role-user">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 role-item role-user">
                     <div class="role-pic"></div>
                     <div class="role-msg">
                         <div class="name">普通用户</div>
                         <div class="msg">可以进入网站前台，浏览其中的数据，使用其中的功能</div>
                     </div>
                 </div>
-                <div class="my-box role-item role-admin">
+                <div class="col-xs-12 col-md-4 role-item role-admin">
                     <div class="role-pic"></div>
                     <div class="role-msg">
                         <div class="name">管理员</div>
                         <div class="msg">可以进入网站前台、后台，使用其中的功能，支持文件上传</div>
                     </div>
                 </div>
-                <div class="my-box role-item role-god">
+                <div class="col-xs-12 col-md-4 role-item role-god">
                     <div class="role-pic"></div>
                     <div class="role-msg">
                         <div class="name">开发者</div>

@@ -90,7 +90,7 @@
 .role-item
 {
 	border: 1px solid #e7e7eb !important;
-	height: 260px;
+	max-height: 300px;
 	margin-right: 10px;
 }
 .role-user .role-pic
@@ -123,7 +123,8 @@
 {
 	width: 90%;
 	height: auto;
-	margin: 0 auto;
+	margin: 10px auto;
 	color: #8d8d8d;
 	text-align: center;
+	font-size: 12px;
 }
