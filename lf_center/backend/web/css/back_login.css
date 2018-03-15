@@ -111,3 +111,19 @@
 	height: 86px;
 	margin: 40px auto;
 }
+.role-msg .name
+{
+	width: 100px;
+	height: 40px;
+	margin: 10px auto;
+	color: #222;
+	text-align: center;
+}
+.role-msg .msg
+{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	color: #8d8d8d;
+	text-align: center;
+}
