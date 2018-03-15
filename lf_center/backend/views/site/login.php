@@ -13,12 +13,12 @@ AppAsset::register($this);
 AppAsset::addCss($this, 'css/back_login.css');
 
 $fieldOptions1 = [
-    'options' => ['class' => 'form-group has-feedback'],
+    'options' => ['class' => 'form-group has-feedback login-input'],
     'inputTemplate' => "{input}<span class='glyphicon glyphicon-envelope form-control-feedback'></span>"
 ];
 
 $fieldOptions2 = [
-    'options' => ['class' => 'form-group has-feedback'],
+    'options' => ['class' => 'form-group has-feedback login-input'],
     'inputTemplate' => "{input}<span class='glyphicon glyphicon-lock form-control-feedback'></span>"
 ];
 ?>
