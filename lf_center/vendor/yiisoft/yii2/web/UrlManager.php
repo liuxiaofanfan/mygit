@@ -460,7 +460,8 @@ class UrlManager extends Component
             return "$baseUrl/{$route}{$anchor}";
         }
 
-        $url = "$baseUrl?{$this->routeParam}=" . urlencode($route);
+        // $url = "$baseUrl?{$this->routeParam}=" . urlencode($route);
+        $url = "$baseUrl?{$this->routeParam}=" . $route;
         if (!empty($params) && ($query = http_build_query($params)) !== '') {
             $url .= '&' . $query;
         }
