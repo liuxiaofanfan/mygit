@@ -8,7 +8,7 @@ use yii\bootstrap\ActiveForm;
 
 $this->title = 'Sign In';
 
-$this->registerCssFile("css/back_login.css");
+$this->registerCssFile("@web/css/back_login.css");
 ?>
 
 <div class="app">
