@@ -24,3 +24,8 @@
 	display: block;
 	clear: both;
 }
+.btn-success
+{
+	background-color: #5cb85c !important;
+	border-color: #4cae4c !important;
+}

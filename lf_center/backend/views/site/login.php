@@ -49,7 +49,7 @@ $fieldOptions2 = [
                         </div>
                         <!-- /.col -->
                         <div class="col-xs-4">
-                            <?= Html::submitButton('Sign in', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button']) ?>
+                            <?= Html::submitButton('Sign in', ['class' => 'btn btn-success btn-block btn-flat', 'name' => 'login-button']) ?>
                         </div>
                         <!-- /.col -->
                     </div>
