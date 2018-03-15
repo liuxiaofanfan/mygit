@@ -59,8 +59,8 @@ $fieldOptions2 = [
             <div class="role-label">账号分类说明</div>
             <div class="my-boxs">
                 <div class="my-box"></div>
-                <div class="my-boxs"></div>
-                <div class="my-boxs"></div>
+                <div class="my-box"></div>
+                <div class="my-box"></div>
             </div>
         </div>
     </div>
