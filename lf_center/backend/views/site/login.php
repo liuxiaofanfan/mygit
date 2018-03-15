@@ -14,8 +14,7 @@ AppAsset::addCss($this, Yii::$app->request->baseUrl.'/css/back_login.css');
 ?>
 
 <div class="app">
-<?= Yii::$app->request->baseUrl;?>
-    <div class="header"></div>
+    <div class="header"><?= Yii::$app->request->baseUrl ?></div>
     <div class="banner"></div>
     <div class="footer"></div>
 </div>
