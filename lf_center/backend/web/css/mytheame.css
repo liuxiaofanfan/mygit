@@ -10,3 +10,7 @@
 {
 	background-color: #fff !important;
 }
+.skin-blue .main-header .logo 
+{
+	box-shadow: 2px 0 20px #00a65a;
+}
