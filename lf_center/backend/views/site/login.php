@@ -10,7 +10,7 @@ use yii\helpers\Html;
 $this->title = 'Sign In';
 
 AppAsset::register($this);
-AppAsset::addCss($this, Yii::$app->request->baseUrl.'/css/back_login.css');
+AppAsset::addCss($this, 'css/back_login.css');
 ?>
 
 <div class="app">
