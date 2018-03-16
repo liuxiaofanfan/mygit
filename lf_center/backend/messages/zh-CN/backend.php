@@ -1,5 +1,5 @@
 <?php
 
 return [
-	'BackendSign In' => '后台登录',
+	'Backend Sign In' => '后台登录',
 ];
