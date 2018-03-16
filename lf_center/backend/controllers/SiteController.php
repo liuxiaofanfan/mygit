@@ -105,6 +105,7 @@ class SiteController extends Controller
         $lang = Yii::$app->request->get('lang');
         if($lang){
             Yii::$app->session['language'] = $lang;
+            echo "1111111111111111!!!!!!!!!!~~~~~~~~~~~~~~".Yii::$app->session['language'];
         }
         return $this->goBack();
     }
