@@ -102,7 +102,7 @@ $fieldOptions2 = [
         </div>
     </div>
     <div class="footer">
-        <strong>Copyright &copy; 2018 <a href="javascript:;">江苏点盈网络科技有限公司</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2018 <a href="javascript:;"><?= Yii::t('backend', 'Jiangsu dian ying network technology co. LTD') ?></a>.</strong> All rights reserved.
     </div>
 </div>
 

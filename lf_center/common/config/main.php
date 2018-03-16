@@ -19,6 +19,7 @@ return [
                     'basePath' => '@common/messages',
                     'fileMap' => [
                         'common' => 'common.php',
+                        'common/login_form' => 'login_form.php',
                         'common/pms_user' => 'pms_user.php',
                         'common/pms_role' => 'pms_role.php',
                         'common/pms_menu' => 'pms_menu.php',

@@ -12,4 +12,6 @@ return [
 	'You can go to the front desk, browse through the data, and use the functions.' => '可以进入网站前台，浏览其中的数据，使用其中的功能',
 	'Can enter the website foreground, the background, use the function of it, support file uploads.' => '可以进入网站前台、后台，使用其中的功能，支持文件上传',
 	'You can enter the foreground and background, and you can see the development menu.' => '能进入前台、后台，可以看到开发菜单',
+	'Jiangsu dian ying network technology co. LTD' => '江苏点盈网络科技有限公司',
+
 ];

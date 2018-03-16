@@ -48,6 +48,15 @@ class LoginForm extends Model
         }
     }
 
+    public function attributeLabels()
+    {
+        return [
+            'username' => Yii::t('common/login_form', 'username'),
+            'password' => Yii::t('common/login_form', 'password'),
+            'rememberMe' => Yii::t('common/login_form', 'rememberMe'),
+        ];
+    }
+
     /**
      * Logs in a user using the provided username and password.
      *
