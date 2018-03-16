@@ -30,14 +30,16 @@ body, .app
 	background: url(../pic/logo.png) no-repeat center center;
 	background-size: cover;
 	margin-top: 12px;
+	vertical-align: middle;
 }
 .head-left .name
 {
-	position: absolute;
+	display: inline-block;
 	height: 80px;
 	line-height: 80px;
 	font-size: 26px;
 	color: #797878;
+	vertical-align: middle;
 }
 .head-right
 {
@@ -47,7 +49,7 @@ body, .app
 }
 .head-right .lang
 {
-	
+
 }
 .login-div
 {
