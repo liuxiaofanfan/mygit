@@ -25,7 +25,7 @@ $fieldOptions2 = [
 
 <div class="app">
     <div class="header">
-        <div class="header-content clearfix">
+        <div class="header-content">
             <div class="head-left">
                 <span class="icon"></span>
                 <span class="name">点盈后台管理平台</span>
