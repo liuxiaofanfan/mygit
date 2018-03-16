@@ -94,7 +94,7 @@ $fieldOptions2 = [
                         <div class="role-pic"></div>
                         <div class="role-msg">
                             <div class="name"><?= Yii::t('backend', 'developer') ?></div>
-                            <div class="msg"></div>
+                            <div class="msg"><?= Yii::t('backend', 'You can enter the foreground and background, and you can see the development menu.') ?></div>
                         </div>
                     </div>
                 </div>
