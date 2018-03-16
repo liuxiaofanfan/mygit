@@ -32,6 +32,8 @@ $fieldOptions2 = [
             </div>
             <div class="head-right">
                 <span class="lang">简体中文</span>
+                <span class="divide">|</span>
+                <span class="lang">English</span>
             </div>
         </div>
     </div>
