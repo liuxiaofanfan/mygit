@@ -97,4 +97,15 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+
+    /**
+     * set web language
+     */
+    public function actionLanguage(){
+        $lang = Yii::$app->request->get('lang');
+        if($lang){
+            Yii::$app->session['language'] = $lang;
+        }
+        return $this->goBack();
+    }
 }

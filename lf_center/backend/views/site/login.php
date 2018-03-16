@@ -7,7 +7,7 @@ use yii\helpers\Html;
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */
 
-$this->title = 'Sign In';
+$this->title = Yii::t('backend', 'Backend Sign In');
 
 AppAsset::register($this);
 AppAsset::addCss($this, 'css/back_login.css');
@@ -33,9 +33,9 @@ $fieldOptions2 = [
             </div>
             <div class="head-right">
                 <div class="langs">
-                    <span id="lang-zh" class="lang lang-active">简体中文</span>
+                    <span id="lang-zh" class="lang lang-active"><?= Html::a('简体中文', ['site/language', 'lang' => 'zh-CN']) ?></span>
                     <span class="divide">|</span>
-                    <span id="lang-en" class="lang">English</span>
+                    <span id="lang-en" class="lang"><?= Html::a('English', ['site/language', 'lang' => 'en'])?></span>
                 </div>
             </div>
         </div>

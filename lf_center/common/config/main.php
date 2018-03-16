@@ -32,7 +32,7 @@ return [
                     'fileMap' => [
                         'backend' => 'backend.php',
                         'backend/pms_user' => 'pms_user.php',
-                        'backend.php/pms_role' => 'pms_role.php',
+                        'backend/pms_role' => 'pms_role.php',
                         'backend/pms_menu' => 'pms_menu.php',
                         'backend/pms_role_menu' => 'pms_role_menu.php',
                         'backend/pms_user_role' => 'pms_user_role.php',
@@ -44,7 +44,7 @@ return [
                     'fileMap' => [
                         'frontend' => 'frontend.php',
                         'frontend/pms_user' => 'pms_user.php',
-                        'frontend.php/pms_role' => 'pms_role.php',
+                        'frontend/pms_role' => 'pms_role.php',
                         'frontend/pms_menu' => 'pms_menu.php',
                         'frontend/pms_role_menu' => 'pms_role_menu.php',
                         'frontend/pms_user_role' => 'pms_user_role.php',
