@@ -58,13 +58,16 @@ body, .app
 	height: 26px;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 26px;
+	line-height: 24px;
 	cursor: pointer;
 	color: #797878;
 }
-.lang-active
+.lang-active 
 {
-	border: 1px solid red;
+	border: 1px solid #3c8dbc;
+	background-color: #3c8dbc;
+	border-radius: 2px;
+	color: #fff !important;
 }
 .login-div
 {
