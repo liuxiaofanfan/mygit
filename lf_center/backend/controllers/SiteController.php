@@ -22,7 +22,7 @@ class SiteController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error', 'language', 'test'],
+                        'actions' => ['login', 'error', 'language'],
                         'allow' => true,
                     ],
                     [
@@ -107,10 +107,5 @@ class SiteController extends Controller
             Yii::$app->session['language'] = $lang;
         }
         return $this->goBack();
-    }
-
-
-    public function actionTest(){
-        echo Yii::$app->session['language'];
     }
 }
