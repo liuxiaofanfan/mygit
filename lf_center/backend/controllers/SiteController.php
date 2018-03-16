@@ -108,4 +108,9 @@ class SiteController extends Controller
         }
         return $this->goBack();
     }
+
+
+    public function actionTest(){
+        echo Yii::$app->session['language'];
+    }
 }
