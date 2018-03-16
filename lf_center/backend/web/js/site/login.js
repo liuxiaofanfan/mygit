@@ -1,5 +1,6 @@
 $(function(){
 	$(".lang").click(function(){
-		$(".lang").toggleClass("lang-active");
+		$(".lang").removeClass("lang-active");
+		$(this).addClass("lang-active");
 	});
 });
