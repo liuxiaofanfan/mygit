@@ -1,6 +1,6 @@
-.app
+body, .app
 {
-	background-color: #fff;
+	background-color: #fff !important;
 	font-family: "Microsoft Yahei";
 }
 .header
@@ -88,9 +88,12 @@
 }
 .role-item
 {
+	padding: 4px 6px;
+}
+.role-item-border
+{
 	border: 1px solid #e7e7eb !important;
-	height: 260px;
-	margin-right: 10px;
+	height: 280px;
 }
 .role-user .role-pic
 {
@@ -126,4 +129,11 @@
 	color: #8d8d8d;
 	text-align: center;
 	font-size: 12px;
+}
+.footer
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
 }
