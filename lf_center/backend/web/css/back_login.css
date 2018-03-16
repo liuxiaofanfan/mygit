@@ -46,9 +46,25 @@ body, .app
 	right: 0;
 	top: 0;
 }
+.head-right .langs
+{
+	height: 80px;
+	line-height: 80px;
+}
 .head-right .lang
 {
-
+	display: inline-block;
+	width: 70px;
+	height: 26px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 26px;
+	cursor: pointer;
+	color: #797878;
+}
+.lang-active
+{
+	border: 1px solid red;
 }
 .login-div
 {

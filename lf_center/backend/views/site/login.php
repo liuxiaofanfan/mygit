@@ -32,9 +32,9 @@ $fieldOptions2 = [
             </div>
             <div class="head-right">
                 <div class="langs">
-                    <span class="lang">简体中文</span>
+                    <span id="lang-zh" class="lang lang-active">简体中文</span>
                     <span class="divide">|</span>
-                    <span class="lang">English</span>
+                    <span id="lang-en" class="lang">English</span>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@ $fieldOptions2 = [
     <div class="banner">
         <div class="login-div clearfix">
             <div class="login-table">
-                <div class="login-label">登录</div>
+                <div class="login-label">后台登录</div>
                 <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false]); ?>
 
                 <?= $form
