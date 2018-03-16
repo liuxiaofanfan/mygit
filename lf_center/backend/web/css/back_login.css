@@ -20,7 +20,7 @@ body, .app
 	display: inline-block;
 	width: 80px;
 	height: 80px;
-	background: url(../pic/icon.png) no-repeat center center;
+	background: url(../pic/logo.png) no-repeat center center;
 }
 .login-div
 {
