@@ -7,7 +7,7 @@ body, .app
 {
 	width: 100%;
 	background-color: #fff;
-	border-top: 4px solid #44B549;
+	border-top: 4px solid #1D83AA;
 }
 .header-content
 {
@@ -29,7 +29,6 @@ body, .app
 	height: 56px;
 	background: url(../pic/logo.png) no-repeat center center;
 	background-size: cover;
-	margin-top: 12px;
 	vertical-align: middle;
 }
 .head-left .name

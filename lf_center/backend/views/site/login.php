@@ -56,7 +56,7 @@ $fieldOptions2 = [
                 </div>
 
                 <div>
-                    <?= Html::submitButton('Sign in', ['class' => 'btn btn-success btn-block btn-flat', 'name' => 'login-button', 'id' => 'do-login']) ?>
+                    <?= Html::submitButton('Sign in', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button', 'id' => 'do-login']) ?>
                 </div>
                 <?php ActiveForm::end(); ?>
             </div>
