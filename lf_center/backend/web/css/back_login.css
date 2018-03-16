@@ -62,11 +62,14 @@ body, .app
 	cursor: pointer;
 	color: #797878;
 }
-.lang-active 
+.lang-active
 {
 	border: 1px solid #3c8dbc;
 	background-color: #3c8dbc;
 	border-radius: 2px;
+}
+.lang-active a
+{
 	color: #fff !important;
 }
 .login-div
