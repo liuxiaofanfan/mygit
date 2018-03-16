@@ -25,7 +25,7 @@ $fieldOptions2 = [
 
 <div class="app">
     <div class="header">
-        <div class="header-content"></div>
+        <div class="header-content"><span class="icon"></span></div>
     </div>
     <div class="banner">
         <div class="login-div clearfix">
