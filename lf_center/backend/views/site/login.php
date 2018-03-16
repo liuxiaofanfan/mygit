@@ -29,7 +29,7 @@ $fieldOptions2 = [
         <div class="header-content">
             <div class="head-left">
                 <span class="icon"></span>
-                <span class="name">点盈后台管理平台</span>
+                <span class="name"><?= Yii::t('backend', 'DianYing Backend Manager Web') ?></span>
             </div>
             <div class="head-right">
                 <div class="langs">
@@ -43,7 +43,7 @@ $fieldOptions2 = [
     <div class="banner">
         <div class="login-div clearfix">
             <div class="login-table">
-                <div class="login-label">后台登录</div>
+                <div class="login-label"><?= Yii::t('backend', 'Backend Sign In') ?></div>
                 <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false]); ?>
 
                 <?= $form
@@ -61,7 +61,7 @@ $fieldOptions2 = [
                 </div>
 
                 <div>
-                    <?= Html::submitButton('Sign in', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button', 'id' => 'do-login']) ?>
+                    <?= Html::submitButton(Yii::t('backend', 'Sign In'), ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button', 'id' => 'do-login']) ?>
                 </div>
                 <?php ActiveForm::end(); ?>
             </div>
@@ -69,14 +69,14 @@ $fieldOptions2 = [
     </div>
     <div class="the-content">
         <div class="notice">
-            <div class="role-label">账号分类说明</div>
+            <div class="role-label"><?= Yii::t('backend', 'Account description') ?></div>
             <div class="row">
                 <div class="col-xs-12 col-md-4 role-item role-user">
                     <div class="role-item-border">
                         <div class="role-pic"></div>
                         <div class="role-msg">
-                            <div class="name">普通用户</div>
-                            <div class="msg">可以进入网站前台，浏览其中的数据，使用其中的功能</div>
+                            <div class="name"><?= Yii::t('backend', 'normal user') ?></div>
+                            <div class="msg"><?= Yii::t('backend', 'You can go to the front desk, browse through the data, and use the functions.') ?></div>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,8 @@ $fieldOptions2 = [
                     <div class="role-item-border">
                         <div class="role-pic"></div>
                             <div class="role-msg">
-                                <div class="name">管理员</div>
-                                <div class="msg">可以进入网站前台、后台，使用其中的功能，支持文件上传</div>
+                                <div class="name"><?= Yii::t('backend', 'system manager') ?></div>
+                                <div class="msg"><?= Yii::t('backend', 'Can enter the website foreground, the background, use the function of it, support file uploads.') ?></div>
                             </div>
                     </div>
                 </div>
@@ -93,8 +93,8 @@ $fieldOptions2 = [
                     <div class="role-item-border">
                         <div class="role-pic"></div>
                         <div class="role-msg">
-                            <div class="name">开发者</div>
-                            <div class="msg">能进入前台、后台，可以看到开发菜单</div>
+                            <div class="name"><?= Yii::t('backend', 'developer') ?></div>
+                            <div class="msg"></div>
                         </div>
                     </div>
                 </div>
