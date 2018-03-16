@@ -35,7 +35,7 @@ $fieldOptions2 = [
                 <div class="langs">
                     <span id="lang-zh" class="lang <?php if(Yii::$app->session['language'] == 'zh-CN') echo 'lang-active'; ?>"><?= Html::a('简体中文', ['site/language', 'lang' => 'zh-CN']) ?></span>
                     <span class="divide">|</span>
-                    <span id="lang-en" class="lang <?php if(Yii::$app->session['language'] == 'zh-CN') echo 'lang-active'; ?>"><?= Html::a('English', ['site/language', 'lang' => 'en'])?></span>
+                    <span id="lang-en" class="lang <?php if(Yii::$app->session['language'] == 'en') echo 'lang-active'; ?>"><?= Html::a('English', ['site/language', 'lang' => 'en'])?></span>
                 </div>
             </div>
         </div>
