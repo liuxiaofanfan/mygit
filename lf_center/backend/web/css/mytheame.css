@@ -125,3 +125,7 @@
 {
 	padding-left: 20px !important;
 }
+.skin-blue .sidebar-form 
+{
+	border: 1px solid #D3D6D8 !important;
+}
