@@ -29,9 +29,11 @@ use dmstr\widgets\Alert;
         ) ?>
     </section>
 
-    <section class="content">
-        <?= Alert::widget() ?>
-        <?= $content ?>
+    <section class="content-body">
+        <section class="content">
+            <?= Alert::widget() ?>
+            <?= $content ?>
+        </section>
     </section>
 </div>
 
