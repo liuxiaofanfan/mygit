@@ -116,7 +116,7 @@
 	background: #fff !important;
 	border-left: 1px solid #eee;
 }
-.control-sidebar-dark .control-sidebar-heading, .control-sidebar-dark .control-sidebar-subheading
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a
 {
 	color: #073A5C !important;
 	font-family: "Microsoft Yahei" !important;
