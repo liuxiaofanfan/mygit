@@ -20,15 +20,14 @@
 {
 	background: #FFFFFF !important;
 }
-.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a, .treeview-menu>li:hover>a
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a,
 {
 	color: #222 !important;
 	background: #E9E9E9 !important;
 }
-.skin-blue .sidebar-menu>li:focus>a
+.treeview-menu>li:hover>a
 {
 	color: green !important;
-	background: #fff !important;
 }
 .skin-blue .sidebar-form input[type="text"], .skin-blue .sidebar-form .btn
 {
