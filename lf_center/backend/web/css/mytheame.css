@@ -111,7 +111,10 @@
 }
 .skin-blue .content-header
 {
-	background: #f6f8f9 !important;
 	height: 52px !important;
-	color: green;
+	color: #3c8dbc;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover
+{
+	background-color: rgba(0,0,0,0.1);
 }
