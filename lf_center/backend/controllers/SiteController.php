@@ -108,4 +108,15 @@ class SiteController extends Controller
         }
         return $this->goBack();
     }
+
+    /**
+     * set web theame
+     */
+    public function actionSetTheame(){
+        $theame = Yii::$app->request->get('theame');
+        if($theame){
+            Yii::$app->session['theame'] = $theame;
+        }
+        return $this->goBack();
+    }
 }

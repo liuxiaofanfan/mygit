@@ -4,6 +4,13 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+AppAsset::register($this);
+if(isset(Yii::$app->session['theame']) && Yii::$app->session['theame'] == "dark"){
+    AppAsset::addCss($this, 'css/mytheame/mytheame_dark.css');
+}else{
+    AppAsset::addCss($this, 'css/mytheame/mytheame_light.css');
+}
+
 
 if (Yii::$app->controller->action->id === 'login') { 
 /**
