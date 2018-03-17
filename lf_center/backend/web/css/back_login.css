@@ -111,10 +111,14 @@ body, .app
 	border-radius: 2px;
 	background-color: #fff;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 420px){
     .login-table
 	{
 		width: 96%;
+	}
+	.head-right
+	{
+		display: none;
 	}
 }
 .login-label
