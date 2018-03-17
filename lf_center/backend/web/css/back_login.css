@@ -111,6 +111,12 @@ body, .app
 	border-radius: 2px;
 	background-color: #fff;
 }
+@media screen and (max-width: 400px){
+    .login-table
+	{
+		width: 96%;
+	}
+}
 .login-label
 {
 	font-size: 20px;
