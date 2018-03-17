@@ -118,3 +118,9 @@
 {
 	background-color: rgba(0,0,0,0.1);
 }
+.logo-lg img
+{
+	width: 50px;
+	position: relative;
+	top: -2px;
+}
