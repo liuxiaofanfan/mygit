@@ -119,7 +119,7 @@
 .skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a
 {
 	color: #073A5C !important;
-	font-family: "Microsoft Yahei" !important;
+	background: #EBEBEB !important;
 }
 .treeview-menu
 {
