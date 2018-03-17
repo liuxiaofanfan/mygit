@@ -144,3 +144,8 @@
 	background: #FFFFFF !important;
 	color: #222 !important;
 }
+.control-sidebar-dark .control-sidebar-heading, .control-sidebar-dark .control-sidebar-subheading
+{
+	color: #222 !important;
+	font-family: "Microsoft Yahei" !important;
+}
