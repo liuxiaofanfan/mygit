@@ -29,6 +29,10 @@
 	color: #fff !important;
 	background: #3c8dbc !important;
 }
+.skin-blue .sidebar-menu>li>.treeview-menu
+{
+	background: #FFFFFF !important;
+}
 .skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a
 {
 	color: #222 !important;
