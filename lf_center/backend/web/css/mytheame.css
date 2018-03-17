@@ -117,3 +117,7 @@
 	color: #073A5C !important;
 	font-family: "Microsoft Yahei" !important;
 }
+.treeview-menu
+{
+	padding-left: 20px;
+}
