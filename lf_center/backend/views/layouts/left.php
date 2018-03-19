@@ -12,7 +12,7 @@ function changeSidebarMenu(){
                 menustr += "<li class=\"treeview\"><a href=\"#\"><i class=\"fa fa-folder-open\" style=\"color: ##6a6c6f;\"></i>";
                 menustr += "<span>";
                 menustr += e.menu_name;
-                menustr += "</span><span class=\"pull-right-container\"></span></a>";
+                menustr += "</span><span class=\"pull-right-container\"></span><span class=\"pull-right-container\"><i class=\"fa fa-angle-left pull-right\"></i></span></a>";
                 if(e.items != null){
                     menustr += "<ul class=\"treeview-menu\">";
                     $.each(e.items, function(i2, e2){
