@@ -2,6 +2,7 @@
 namespace backend\controllers;
 
 use Yii;
+use common\helper\rbac\MenuHelper;
 use common\models\LoginForm;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
@@ -21,10 +22,10 @@ class SiteController extends Controller
             'access' => [
                 'class' => AccessControl::className(),
                 'rules' => [
-                    [
-                        'actions' => ['login', 'error', 'language', 'set-theame', 'test'],
-                        'allow' => true,
-                    ],
+                    // [
+                    //     'actions' => ['login', 'error', 'language', 'set-theame', 'test'],
+                    //     'allow' => true,
+                    // ],
                     [
                         'actions' => ['logout', 'index'],
                         'allow' => true,
@@ -61,6 +62,11 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
+    }
+
+
+    public function actionAssignMenu(){
+        echo json_encode(MenuHelper::getAssignedMenu());
     }
 
     /**
