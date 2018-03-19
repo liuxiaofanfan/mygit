@@ -111,7 +111,7 @@ class MenuHelper{
 	 */
 	public static function getMenuList($menu){
 	    $newMenu = [];
-	    foreach($menu as $menuitem){
+	    foreach($menu as &$menuitem){
 	        if($menuitem['menu_level'] == 1){
 	            foreach($menu as $menuitem2){
 	                if($menuitem2['menu_level'] == 2 && $menuitem2['parent_id'] == $menuitem['menu_id']){
