@@ -4,7 +4,7 @@ use yii\web\View;
 
 $assignJs = <<<JS
     function changeSidebarMenu(){
-        $.getJSON("'.Url::toRoute('site/assign-menu').'", {}, function(data){
+        $.getJSON(Url::toRoute('site/assign-menu'), {}, function(data){
             $(".sidebar-menu").html("");
             var menustr = "";
             $.each(data, function(i, e){
