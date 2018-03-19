@@ -105,27 +105,24 @@ class MenuHelper{
     }
 
     /**
-     * 根据层级形成菜单树
-     * @param  [type] $menuItems [description]
-     * @return [type]            [description]
-     */
-    public static function renderItem($menuItems = null)
-    {
-        $refer = array();
-        $tree = array();
-        foreach($menuItems as $k => $v){
-            $refer[$v['menu_id']] = & $menuItems[$k]; //创建主键的数组引用
-        }
-        foreach($menuItems as $k => $v){
-            $pid = $v['parent_id'];  //获取当前分类的父级id
-            if($pid == null){
-                $tree[] = & $menuItems[$k];  //顶级栏目
-            }else{
-                if(isset($refer[$pid])){
-                    $refer[$pid]['data'][] = & $menuItems[$k]; //如果存在父级栏目，则添加进父级栏目的子栏目数组中
-                }
-            }
-        }
-        return $tree;
-    }
+	 * @author liufan
+	 * @param menu 散的一层菜单列表
+	 * 获取有层次的二级菜单列表(这个算法很low，后期优化)
+	 */
+	public static function getMenuList($menu){
+	    $newMenu = [];
+	    foreach($menu as $menuitem){
+	        if($menuitem['menu_level'] == 1){
+	            foreach($menu as $menuitem2){
+	                if($menuitem2['menu_level'] == 2 && $menuitem2['parent_id'] == $menuitem['menu_id']){
+	                    $menuitem['items'][] = $menuitem2;
+	                }
+	                continue;
+	            }
+	            $newMenu[] = $menuitem;
+	        }
+	        continue;
+	    }
+	    return $newMenu;
+	}
 }

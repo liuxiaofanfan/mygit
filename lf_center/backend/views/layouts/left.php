@@ -1,3 +1,10 @@
+<?php
+    use backend\assets\AppAsset;
+
+    AppAsset::register($this);
+    AppAsset::addScript($this, 'js/layer/left.js');
+?>
+
 <aside class="main-sidebar">
 
     <section class="sidebar">

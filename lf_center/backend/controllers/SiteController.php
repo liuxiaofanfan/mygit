@@ -2,7 +2,6 @@
 namespace backend\controllers;
 
 use Yii;
-use common\helper\rbac\MenuHelper;
 use common\models\LoginForm;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
@@ -121,8 +120,8 @@ class SiteController extends Controller
         return $this->goBack();
     }
 
-    public function actionTest(){
-        $menu = MenuHelper::getAssignedMenu(Yii::$app->user->identity->user_id);
-        var_dump($menu);
-    }
+    // public function actionTest(){
+    //     $menu = MenuHelper::getAssignedMenu(Yii::$app->user->identity->user_id);
+    //     var_dump($menu);
+    // }
 }
