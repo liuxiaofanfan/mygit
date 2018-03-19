@@ -71,6 +71,7 @@ class SiteController extends Controller
      * @return [type] [description]
      */
     public function actionAssignMenu(){
+        exit;
         echo json_encode(MenuHelper::getAssignedMenu(Yii::$app->user->identity));
     }
 
