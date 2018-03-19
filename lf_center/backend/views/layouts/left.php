@@ -9,7 +9,7 @@ function changeSidebarMenu(){
             $(".sidebar-menu").html("");
             var menustr = "";
             $.each(data, function(i, e){
-                menustr += "<li><a href=\"#\"><i class=\"fa fa-folder-open\" style=\"color: ##6a6c6f;\"></i>";
+                menustr += "<li class="treeview"><a href=\"#\"><i class=\"fa fa-folder-open\" style=\"color: ##6a6c6f;\"></i>";
                 menustr += "<span>";
                 menustr += e.menu_name;
                 menustr += "</span><span class=\"pull-right-container\"></span></a>";
