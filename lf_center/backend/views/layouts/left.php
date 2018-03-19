@@ -2,9 +2,9 @@
 
 use yii\web\View;
 
-$assignJs = <<<JS
-    function changeSidebarMenu(){
-        $.getJSON(Url::toRoute('site/assign-menu'), {}, function(data){
+$this->registerJs('
+function changeSidebarMenu(){
+        $.getJSON("'.Url::toRoute('site/assign-menu').'", {}, function(data){
             $(".sidebar-menu").html("");
             var menustr = "";
             $.each(data, function(i, e){
@@ -27,8 +27,7 @@ $assignJs = <<<JS
         });
     }
     changeSidebarMenu();
-JS;
-$this->registerJs($assignJs, View::POS_END);
+', View::POS_END);
 ?>
 
 <aside class="main-sidebar">
