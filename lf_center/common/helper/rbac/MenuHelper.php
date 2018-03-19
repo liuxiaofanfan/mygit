@@ -2,6 +2,7 @@
 
 namespace common\helper\rbac;
 
+use Yii;
 use common\models\LfPmsMenu;
 use common\models\LfPmsRolemenu;
 use common\models\LfPmsUserrole;
