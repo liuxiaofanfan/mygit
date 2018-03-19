@@ -100,7 +100,7 @@ class MenuHelper{
     {
         $menuEndItems = [];
         array_multisort(array_column($menuLastItems, 'menu_level'),array_column($menuLastItems, 'sequence'),SORT_ASC,$menuLastItems);
-        $menuEndItems = static::renderItem($menuLastItems);
+        $menuEndItems = self::getMenuList($menuLastItems);
         return $menuEndItems;
     }
 
