@@ -66,8 +66,12 @@ class SiteController extends Controller
     }
 
 
+    /**
+     * 根据当前登录的用户id获取菜单
+     * @return [type] [description]
+     */
     public function actionAssignMenu(){
-        echo json_encode(MenuHelper::getAssignedMenu());
+        echo json_encode(MenuHelper::getAssignedMenu(Yii::$app->user->identity));
     }
 
     /**
