@@ -27,7 +27,7 @@ class MenuHelper{
 			$cache->flush();
 		}
 		if(!$cache->get($key)){
-			$menuItems = self::getMenuByUser($userId);
+			$menuItems = self::getMenuByUser($userid);
             if (!$menuItems) 
             	$menuItems= [];
             $cache->set($key, $menuItems, 86400);
