@@ -12,6 +12,7 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
+    #多语言切换
     'on beforeRequest' => function($event){
         Yii::$app->language = isset(\Yii::$app->session['language']) ? \Yii::$app->session['language'] : 'zh-CN';
         return; 

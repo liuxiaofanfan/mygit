@@ -2,10 +2,11 @@
 namespace backend\controllers;
 
 use Yii;
-use yii\web\Controller;
-use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
+use common\helper\rbac\MenuHelper;
 use common\models\LoginForm;
+use yii\filters\AccessControl;
+use yii\filters\VerbFilter;
+use yii\web\Controller;
 
 /**
  * Site controller
@@ -118,5 +119,10 @@ class SiteController extends Controller
             Yii::$app->session['theame'] = $theame;
         }
         return $this->goBack();
+    }
+
+    public function actionTest(){
+        $menu = MenuHelper::getAssignedMenu(Yii::$app->user->identity->user_id);
+        var_dump($menu);
     }
 }

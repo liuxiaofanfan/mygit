@@ -16,5 +16,20 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        'cache' => [
+            'class' => 'yii\caching\MemCache',
+            'servers' => [
+                [
+                    'host' => 'localhost',
+                    'port' => 11211,
+                    'weight' => 100,
+                ],
+                [
+                    'host' => 'localhost',
+                    'port' => 11211,
+                    'weight' => 50,
+                ],
+            ],
+        ],
     ],
 ];
