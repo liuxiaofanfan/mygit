@@ -23,7 +23,7 @@ class SiteController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['login', 'error', 'language', 'set-theame'],
+                        'actions' => ['login', 'error', 'language', 'set-theame', 'test'],
                         'allow' => true,
                     ],
                     [
