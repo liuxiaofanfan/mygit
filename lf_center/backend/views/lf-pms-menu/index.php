@@ -9,11 +9,15 @@ use yii\widgets\Pjax;
 
 $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
+
+$this->registerJs('
+    $.pjax.reload({container:"#countries"});
+');
 ?>
 <div class="lf-pms-menu-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-    <?php Pjax::begin(); ?>
+    <?php Pjax::begin(['id' => 'countries']); ?>
     <?php //echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
