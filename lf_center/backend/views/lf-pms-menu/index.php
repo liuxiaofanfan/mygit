@@ -33,14 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'target_url:url',
             'sequence',
             'icon',
-            ['class' => 'yii\grid\ActionColumn','buttons' => [
-            'view' => function ($url, $model) {
-                return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, [
-                            'title' => Yii::t('yii', 'Delete'),
-                            'data-pjax'=>'w0',
-                ]);
-            }
-        ]],
+            ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
     <?php Pjax::end(); ?>
