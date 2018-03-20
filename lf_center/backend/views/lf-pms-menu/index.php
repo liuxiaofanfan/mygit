@@ -1,7 +1,8 @@
 <?php
 
-use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\helpers\Html;
+use yii\web\View;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\LfPmsMenuSearch */
@@ -9,6 +10,13 @@ use yii\widgets\Pjax;
 
 $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
+
+$this->registerJs('
+    $(".delete-batch").click(function(){
+        var keys = $("#grid").yiiGridView("getSelectedRows");
+        console.log(keys);
+    });
+', View::POS_END);
 ?>
 <div class="lf-pms-menu-index">
 
@@ -18,6 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::a(Yii::t('backend/pms_menu', 'Create Lf Pms Menu'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a(Yii::t('backend/pms_menu', 'Delete Menu Batch'), 'javascript:void(0);', ['class' => 'btn btn-danger delete-batch']) ?>
     </p>
 
     <?= GridView::widget([
