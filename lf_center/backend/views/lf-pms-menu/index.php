@@ -11,15 +11,12 @@ use yii\widgets\Pjax;
 $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
 
-$this->beginPage();
-$this->beginBody();
 $this->registerJs('
     $(".delete-batch").click(function(){
         var keys = $("#grid").yiiGridView("getSelectedRows");
         console.log(keys);
     });
 ', View::POS_END);
-
 ?>
 <div class="lf-pms-menu-index">
 
@@ -50,6 +47,4 @@ $this->registerJs('
         ],
     ]); ?>
     <?php Pjax::end(); ?>
-    <?php $this->endBody();
-$this->endPage();?>
 </div>
