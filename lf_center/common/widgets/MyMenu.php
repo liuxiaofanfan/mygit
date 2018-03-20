@@ -15,8 +15,8 @@ class MyMenu extends Menu
     public $childUl = '<ul class="treeview-menu">{content}</ul>';
     public $liRow = '<li class="treeview">{content}</li>';
     public $liRow_child = '<li class="child-menu">{content}</li>';
-    public $defaultIconHtml = '<i class="fa fa-circle-o"></i> ';
-    public static $iconClassPrefix = '<i class="fa fa-';
+    public $defaultIconHtml = '<i class="glyphicon glyphicon-file"></i> ';
+    public static $iconClassPrefix = '<i class="glyphicon glyphicon-';
 
     
     /**
