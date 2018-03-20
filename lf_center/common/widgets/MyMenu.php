@@ -13,7 +13,8 @@ class MyMenu extends Menu
     public $ulTemplate = '<ul class="sidebar-menu tree" data-widget="tree">{content}</ul>';
     public $spanArow = '<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>';
     public $childUl = '<ul class="treeview-menu">{content}</ul>';
-    public $liRow = '<li>{content}</li>';
+    public $liRow = '<li class="treeview">{content}</li>';
+    public $liRow_child = '<li>{content}</li>';
     public $defaultIconHtml = '<i class="fa fa-circle-o"></i> ';
     public static $iconClassPrefix = '<i class="fa fa-';
 
@@ -35,21 +36,25 @@ class MyMenu extends Menu
     {
         if($items) {
             $liRow = '';
-            foreach ($items as $item) {
-                if ($item['icon']) {
+            foreach($items as $item){
+                if($item['icon']){
                     $icon = self::$iconClassPrefix . $item['icon'] . '"></i>';
-                } else {
+                }else{
                     $icon = $this->defaultIconHtml;
                 }
-                if (isset($item['items'])) {
+                if(isset($item['items'])){
                     $liRowContent = $icon . Html::tag('span', $item['menu_name'], ['class' => 'menu_span']) . $this->spanArow;
                     $liRowUlarea = str_replace('{content}', $this->renderItems($item['items']), $this->childUl);
-                } else {
+                }else{
                     $liRowContent = $icon . Html::tag('span', $item['menu_name']);
                     $liRowUlarea = '';
                 }
                 $liRowHref = Html::a($liRowContent, [$item['target_url']], ['class' => 'level', 'data-id' => $item['menu_id'], 'data-parent' => $item['parent_id'], 'data-level' => $item['menu_level'], 'data-url' => $item['target_url']]);
-                $liRow .= str_replace('{content}', $liRowHref . $liRowUlarea, $this->liRow);
+                if(isset($item['items'])){
+                    $liRow .= str_replace('{content}', $liRowHref . $liRowUlarea, $this->liRow);
+                }else{
+                    $liRow .= str_replace('{content}', $liRowHref . $liRowUlarea, $this->liRow_child);
+                }
             }
             return $liRow;
         }
