@@ -12,7 +12,7 @@ $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
 
 $this->registerJs('
-    $(".delete-batch").click(function(){
+    $("#main-content").on("click", ".delete-batch", function(){
         var keys = $("#grid").yiiGridView("getSelectedRows");
         console.log(keys);
     });
