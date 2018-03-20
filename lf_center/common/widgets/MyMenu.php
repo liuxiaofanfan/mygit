@@ -14,7 +14,7 @@ class MyMenu extends Menu
     public $spanArow = '<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>';
     public $childUl = '<ul class="treeview-menu">{content}</ul>';
     public $liRow = '<li class="treeview">{content}</li>';
-    public $liRow_child = '<li>{content}</li>';
+    public $liRow_child = '<li class="child-menu">{content}</li>';
     public $defaultIconHtml = '<i class="fa fa-circle-o"></i> ';
     public static $iconClassPrefix = '<i class="fa fa-';
 
