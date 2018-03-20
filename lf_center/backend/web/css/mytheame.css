@@ -149,7 +149,7 @@
 	color: #222 !important;
 	font-family: "Microsoft Yahei" !important;
 }
-.active-menu
+.active-menu a
 {
 	color: green;
 }
