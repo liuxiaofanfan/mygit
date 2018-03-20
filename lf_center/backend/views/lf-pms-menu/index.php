@@ -19,8 +19,7 @@ $this->registerJs('
         console.log(keys);
     });
 ', View::POS_END);
-$this->endBody();
-$this->endPage();
+
 ?>
 <div class="lf-pms-menu-index">
 
@@ -51,4 +50,6 @@ $this->endPage();
         ],
     ]); ?>
     <?php Pjax::end(); ?>
+    <?php $this->endBody();
+$this->endPage();?>
 </div>
