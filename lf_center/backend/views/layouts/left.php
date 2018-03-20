@@ -1,5 +1,7 @@
 <?php
 
+use common\helper\rbac\MenuHelper;
+use common\widgets\MyMenu;
 use yii\helpers\Url;
 use yii\web\View;
 
@@ -84,7 +86,7 @@ function changeSidebarMenu(){
             ]
         ) ?>
     
-        <?= common\widgets\MyMenu::widget([
+        <?= MyMenu::widget([
             'items' => MenuHelper::getAssignedMenu(Yii::$app->user->identity),
         ]) ?>
     </section>
