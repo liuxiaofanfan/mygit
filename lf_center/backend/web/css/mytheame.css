@@ -27,7 +27,7 @@
 }
 .treeview-menu>li:hover>a
 {
-	color: green !important;
+	color: rgb(39, 178, 212) !important;
 }
 .skin-blue .sidebar-form input[type="text"], .skin-blue .sidebar-form .btn
 {
@@ -151,5 +151,5 @@
 }
 .active-menu a
 {
-	color: green !important;
+	background-color: rgba(156, 195, 211, 0.46) !important;
 }
