@@ -20,7 +20,7 @@ class MenuHelper{
 	 * @param  boolean $refresh 是否刷新缓存
 	 * @return [type]           返回菜单数组
 	 */
-	public static function getAssignedMenu($userid, $refresh = false){
+	public static function getAssignedMenu($userid, $refresh = true){
 		$key = [__METHOD__, $userid];
 		$cache = Yii::$app->cache;
 		if($refresh){
