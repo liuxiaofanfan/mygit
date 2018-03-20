@@ -29,7 +29,7 @@ function changeSidebarMenu(){
             $(".sidebar-menu").append(menustr);
         });
     }
-    changeSidebarMenu();
+    // changeSidebarMenu();
 ', View::POS_END);
 ?>
 
