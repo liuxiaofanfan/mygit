@@ -35,6 +35,7 @@ class LfPmsMenu extends \yii\db\ActiveRecord
             [['menu_id', 'parent_id'], 'string', 'max' => 32],
             [['menu_name'], 'string', 'max' => 16],
             [['target_url'], 'string', 'max' => 30],
+            [['icon'], 'string', 'max' => 50],
             [['menu_id'], 'unique'],
         ];
     }
@@ -51,6 +52,7 @@ class LfPmsMenu extends \yii\db\ActiveRecord
             'parent_id' => Yii::t('common/pms_menu', 'Parent ID'),
             'target_url' => Yii::t('common/pms_menu', 'Target Url'),
             'sequence' => Yii::t('common/pms_menu', 'Sequence'),
+            'icon' => Yii::t('common/pms_menu', 'Icon'),
         ];
     }
 }
