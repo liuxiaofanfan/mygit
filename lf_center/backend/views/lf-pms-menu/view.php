@@ -34,6 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'parent_id',
             'target_url:url',
             'sequence',
+            'icon',
         ],
     ]) ?>
 

@@ -31,8 +31,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'menu_level',
             'parent_id',
             'target_url:url',
-            //'sequence',
-
+            'sequence',
+            'icon',
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
