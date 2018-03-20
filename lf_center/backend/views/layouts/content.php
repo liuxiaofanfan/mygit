@@ -2,6 +2,7 @@
 use dmstr\widgets\Alert;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
+use yii\widgets\Pjax;
 
 ?>
 <div class="content-wrapper">
@@ -33,7 +34,9 @@ use yii\widgets\Breadcrumbs;
     <section class="content-body">
         <section class="content">
             <?= Alert::widget() ?>
-            <?= $content ?>
+            <?php Pjax::begin(['id' => 'main-content']); ?>
+                <?= $content ?>
+            <?php Pjax::end(); ?>
         </section>
     </section>
 </div>
