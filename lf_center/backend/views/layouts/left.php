@@ -83,7 +83,10 @@ function changeSidebarMenu(){
                 ],
             ]
         ) ?>
-
+    
+        <?= common\widgets\MyMenu::widget([
+            'items' => MenuHelper::getAssignedMenu(Yii::$app->user->identity),
+        ]) ?>
     </section>
 
 </aside>
