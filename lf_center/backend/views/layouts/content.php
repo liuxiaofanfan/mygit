@@ -31,14 +31,14 @@ use yii\widgets\Pjax;
         ) ?>
     </section>
 
+    <?= Alert::widget() ?>
     <section class="content-body">
         <section class="content">
-            <?= Alert::widget() ?>
             <?php Pjax::begin(['id' => 'main-content']); ?>
                 <?= $content ?>
-            <?php Pjax::end(); ?>
         </section>
     </section>
+    <?php Pjax::end(); ?>
 </div>
 
 <footer class="main-footer">
