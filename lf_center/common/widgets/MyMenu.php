@@ -10,7 +10,7 @@ use yii\widgets\Menu;
  */
 class MyMenu extends Menu
 {
-    public $ulTemplate = '<ul class="sidebar-menu tree">{content}</ul>';
+    public $ulTemplate = '<ul class="sidebar-menu tree" data-widget="tree">{content}</ul>';
     public $spanArow = '<span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>';
     public $childUl = '<ul class="treeview-menu">{content}</ul>';
     public $liRow = '<li class="treeview">{content}</li>';
