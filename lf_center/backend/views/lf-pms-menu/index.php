@@ -33,6 +33,7 @@ $this->registerJs('
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'id' => 'grid',
+        'showFooter' => true,
         'columns' => [
             // ['class' => 'yii\grid\SerialColumn'],
             // ['class' => 'yii\grid\CheckboxColumn', 'name' => 'id'],
