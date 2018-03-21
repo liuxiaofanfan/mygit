@@ -85,6 +85,7 @@ $this->registerJs('
                             'title' => Yii::t('common', 'Opt_Delete'),
                             'aria-label' => Yii::t('common', 'Opt_Delete'),
                             'data-pjax' => 'true',
+                            'data-confirm' => Yii::t('common', 'Are you sure to delete it!'),
                         ];
                         return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, $options);
                     },
