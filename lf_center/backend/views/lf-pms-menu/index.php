@@ -72,7 +72,7 @@ $this->registerJs('
                         ];
                         return Html::a('<span class="glyphicon glyphicon-eye-open"></span>', $url, $options);
                     },
-                    'update' => function(){
+                    'update' => function($url, $model, $key){
                         $options = [
                             'title' => Yii::t('common', 'Opt_Update'),
                             'aria-label' => Yii::t('common', 'Opt_Update'),
@@ -80,7 +80,7 @@ $this->registerJs('
                         ];
                         return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url, $options);
                     },
-                    'delete' => function(){
+                    'delete' => function($url, $model, $key){
                         $options = [
                             'title' => Yii::t('common', 'Opt_Delete'),
                             'aria-label' => Yii::t('common', 'Opt_Delete'),
