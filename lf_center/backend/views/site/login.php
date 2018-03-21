@@ -10,9 +10,9 @@ use yii\widgets\Pjax;
 
 $this->title = Yii::t('backend', 'Backend Sign In');
 
-AppAsset::register($this);
-AppAsset::addCss($this, 'css/back_login.css');
-AppAsset::addScript($this, 'js/site/login.js');
+// AppAsset::register($this);
+// AppAsset::addCss($this, 'css/back_login.css');
+// AppAsset::addScript($this, 'js/site/login.js');
 
 $fieldOptions1 = [
     'options' => ['class' => 'form-group has-feedback login-input'],
