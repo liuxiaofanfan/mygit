@@ -1,5 +1,5 @@
 <?php
-// use backend\assets\AppAsset;
+use backend\assets\AppAsset;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 
@@ -9,9 +9,9 @@ use yii\helpers\Html;
 
 $this->title = Yii::t('backend', 'Backend Sign In');
 
-// AppAsset::register($this);
-// AppAsset::addCss($this, 'css/back_login.css');
-// AppAsset::addScript($this, 'js/site/login.js');
+backend\assets\AppAsset::register($this);
+backend\assets\AppAsset::addCss($this, 'css/back_login.css');
+backend\assets\AppAsset::addScript($this, 'js/site/login.js');
 
 $fieldOptions1 = [
     'options' => ['class' => 'form-group has-feedback login-input'],
