@@ -1,7 +1,7 @@
 <?php
 use backend\assets\AppAsset;
+use common\widgets\Alert;
 use yii\bootstrap\ActiveForm;
-use yii\bootstrap\Alert;
 use yii\helpers\Html;
 use yii\widgets\Pjax;
 
