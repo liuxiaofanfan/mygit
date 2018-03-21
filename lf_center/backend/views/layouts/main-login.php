@@ -1,10 +1,10 @@
 <?php
-use backend\assets\AppAsset;
+// use backend\assets\AppAsset;
 use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-dmstr\web\AdminLteAsset::register($this);
+// dmstr\web\AdminLteAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
