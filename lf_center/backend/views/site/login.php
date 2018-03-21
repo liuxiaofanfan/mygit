@@ -2,6 +2,7 @@
 use backend\assets\AppAsset;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
+use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -31,6 +32,7 @@ $fieldOptions2 = [
                 <span class="icon"></span>
                 <span class="name"><?= Yii::t('backend', 'DianYing Backend Manager Web') ?></span>
             </div>
+            <?php Pjax::bagin(); ?>
             <div class="head-right">
                 <div class="langs">
                     <span id="lang-zh" class="lang <?php if(Yii::$app->session['language'] == 'zh-CN') echo 'lang-active'; ?>"><?= Html::a('简体中文', ['site/language', 'lang' => 'zh-CN']) ?></span>
@@ -38,6 +40,7 @@ $fieldOptions2 = [
                     <span id="lang-en" class="lang <?php if(Yii::$app->session['language'] == 'en') echo 'lang-active'; ?>"><?= Html::a('English', ['site/language', 'lang' => 'en'])?></span>
                 </div>
             </div>
+            <?php Pjax::end(); ?>
         </div>
     </div>
     <div class="banner">
