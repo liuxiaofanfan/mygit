@@ -44,7 +44,7 @@ $this->registerJs('
                 'footer' => '<button href="#" class="btn btn-default btn-xs delete-batch">删除</button>',
                 'footerOptions' => ['colspan' => 2],
             ],
-            ['menu_id', 'footerOptions' => ['class'=>'hide']],
+            ['attribute' => 'menu_id', 'footerOptions' => ['class'=>'hide']],
             // 'menu_name',
             // 'menu_level',
             // 'parent_id',
