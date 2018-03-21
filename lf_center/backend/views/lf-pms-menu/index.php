@@ -42,7 +42,12 @@ $this->registerJs('
             'parent_id',
             'target_url:url',
             'sequence',
-            'icon',
+            [
+                'attribute' => 'icon',
+                'value' => function($model){
+                    return "<span class='glyphicon glyphicon-".$model->icon."'></span>";
+                }
+            ],
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
