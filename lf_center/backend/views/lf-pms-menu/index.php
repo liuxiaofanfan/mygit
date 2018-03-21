@@ -62,7 +62,7 @@ $this->registerJs('
             ],
             [
                 'class' => 'yii\grid\ActionColumn',
-                'template' => '{view}{update}{delete}',
+                'template' => '{view} {update} {delete}',
                 'buttons' => [
                     'view' => function($url, $model, $key){
                         $options = [
