@@ -1,6 +1,5 @@
 <?php
 use backend\assets\AppAsset;
-use common\widgets\Alert;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 use yii\widgets\Pjax;
@@ -30,7 +29,7 @@ $fieldOptions2 = [
 
 <?php 
     if(Yii::$app->getSession()->hasFlash("loginTimeOut")){
-        echo Alert::widget([
+        echo yii\bootstrap\Alert::widget([
             'options' => ['class' => 'alert-warning the-timeout'],
             'body' => Yii::t("backend", Yii::$app->getSession()->getFlash("loginTimeOut")),
         ]);
