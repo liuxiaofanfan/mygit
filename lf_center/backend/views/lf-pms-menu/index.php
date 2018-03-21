@@ -51,6 +51,7 @@ $this->registerJs('
             [
                 'attribute' => 'sequence',
                 'headerOptions' => ['width' => 60],
+                'filter' => false,
             ],
             [
                 'attribute' => 'icon',
