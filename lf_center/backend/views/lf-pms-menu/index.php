@@ -68,7 +68,7 @@ $this->registerJs('
                         $options = [
                             'title' => Yii::t('common', 'Opt_View'),
                             'aria-label' => Yii::t('common', 'Opt_View'),
-                            'data-pjax' => '0',
+                            'data-pjax' => 'true',
                         ];
                         return Html::a('<span class="glyphicon glyphicon-eye-open"></span>', $url, $options);
                     },
@@ -76,7 +76,7 @@ $this->registerJs('
                         $options = [
                             'title' => Yii::t('common', 'Opt_Update'),
                             'aria-label' => Yii::t('common', 'Opt_Update'),
-                            'data-pjax' => '0',
+                            'data-pjax' => 'true',
                         ];
                         return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url, $options);
                     },
@@ -84,7 +84,7 @@ $this->registerJs('
                         $options = [
                             'title' => Yii::t('common', 'Opt_Delete'),
                             'aria-label' => Yii::t('common', 'Opt_Delete'),
-                            'data-pjax' => '0',
+                            'data-pjax' => 'true',
                         ];
                         return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, $options);
                     },
