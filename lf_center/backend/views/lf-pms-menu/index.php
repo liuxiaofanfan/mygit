@@ -42,7 +42,7 @@ $this->registerJs('
             'menu_level',
             [
                 'attribute' => 'parent_id',
-                'label' => 'parent',
+                'label' => Yii::t('common/pms_menu', 'Parent'),
                 'value' => function($model){
                     return MenuHelper::getMenuNameById($model->parent_id);
                 }
