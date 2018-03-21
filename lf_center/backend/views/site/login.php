@@ -30,7 +30,7 @@ $fieldOptions2 = [
 <?php 
     if(Yii::$app->getSession()->hasFlash("loginTimeOut")){
         echo yii\bootstrap\Alert::widget([
-            'options' => ['class' => 'alert-warning the-timeout'],
+            'options' => ['class' => 'my-alert-default'],
             'body' => Yii::t("backend", Yii::$app->getSession()->getFlash("loginTimeOut")),
         ]);
     }
