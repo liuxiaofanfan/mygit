@@ -24,6 +24,7 @@ $fieldOptions2 = [
 ];
 ?>
 
+<?php Pjax::begin(['id' => 'login-pjax']); ?>
 <div class="app">
     <div class="header">
         <div class="header-content">
@@ -105,4 +106,4 @@ $fieldOptions2 = [
         <strong>Copyright &copy; 2018 <a href="javascript:;"><?= Yii::t('backend', 'Jiangsu dian ying network technology co. LTD') ?></a>.</strong> All rights reserved.
     </div>
 </div>
-
+<?php Pjax::end(); ?>
