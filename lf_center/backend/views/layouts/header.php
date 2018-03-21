@@ -239,7 +239,7 @@ use yii\helpers\Html;
                                  alt="User Image"/>
 
                             <p>
-                                <?= Yii::$app->user->identity->user_name ?> - Web Developer
+                                <?php if(!Yii::$app->user->isGuest) echo Yii::$app->user->identity->user_name; ?> - Web Developer
                                 <small>Member since Nov. 2012</small>
                             </p>
                         </li>
