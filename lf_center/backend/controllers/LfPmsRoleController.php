@@ -12,7 +12,7 @@ use yii\filters\VerbFilter;
 /**
  * LfPmsRoleController implements the CRUD actions for LfPmsRole model.
  */
-class LfPmsRoleController extends Controller
+class LfPmsRoleController extends BackController
 {
     /**
      * @inheritdoc

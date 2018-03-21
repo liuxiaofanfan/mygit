@@ -12,7 +12,7 @@ use yii\filters\VerbFilter;
 /**
  * LfPmsMenuController implements the CRUD actions for LfPmsMenu model.
  */
-class LfPmsMenuController extends Controller
+class LfPmsMenuController extends BackController
 {
     /**
      * @inheritdoc
