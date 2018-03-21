@@ -35,7 +35,14 @@ $this->registerJs('
         'id' => 'grid',
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-            ['class' => 'yii\grid\CheckboxColumn', 'name' => 'id'],
+            // ['class' => 'yii\grid\CheckboxColumn', 'name' => 'id'],
+            [
+                'class' => 'yii\grid\CheckboxColumn',
+                'name'  => 'id',
+                'headerOptions' => ['width' => 30],
+                'footer' => '<button href="#" class="btn btn-default btn-xs delete-batch">删除</button>',
+                'footerOptions' => ['colspan' => 5],
+            ],
             'menu_id',
             'menu_name',
             'menu_level',
