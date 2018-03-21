@@ -62,7 +62,33 @@ $this->registerJs('
             ],
             [
                 'class' => 'yii\grid\ActionColumn',
-                'header' => Yii::t('common' ,'Operation'),
+                'template' => '{view}{update}{delete}',
+                'buttons' => [
+                    'view' => function($url, $model, $key){
+                        $options = [
+                            'title' => Yii::t('common', 'Opt_View'),
+                            'aria-label' => Yii::t('common', 'Opt_View'),
+                            'data-pjax' => '0',
+                        ];
+                        return Html::a('<span class="glyphicon glyphicon-eye-open"></span>', $url, $options);
+                    },
+                    'update' => function(){
+                        $options = [
+                            'title' => Yii::t('common', 'Opt_Update'),
+                            'aria-label' => Yii::t('common', 'Opt_Update'),
+                            'data-pjax' => '0',
+                        ];
+                        return Html::a('<span class="glyphicon glyphicon-pencil"></span>', $url, $options);
+                    },
+                    'delete' => function(){
+                        $options = [
+                            'title' => Yii::t('common', 'Opt_Delete'),
+                            'aria-label' => Yii::t('common', 'Opt_Delete'),
+                            'data-pjax' => '0',
+                        ];
+                        return Html::a('<span class="glyphicon glyphicon-trash', $url, $options);
+                    },
+                ],
             ],
         ],
     ]); ?>
