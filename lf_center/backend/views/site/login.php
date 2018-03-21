@@ -30,6 +30,8 @@ $fieldOptions2 = [
         <div class="header-content">
             <div class="head-left">
                 <span class="icon"></span>
+                <? Pjax::begin(); ?>
+                <? Pjax::end(); ?>
                 <span class="name"><?= Yii::t('backend', 'DianYing Backend Manager Web') ?></span>
             </div>
             <div class="head-right">
