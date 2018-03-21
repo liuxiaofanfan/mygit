@@ -48,7 +48,10 @@ $this->registerJs('
                 }
             ],
             'target_url',
-            'sequence',
+            [
+                'attribute' => 'sequence',
+                'headerOptions' => ['width' => 60],
+            ],
             [
                 'attribute' => 'icon',
                 'value' => function($model){
