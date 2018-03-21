@@ -159,7 +159,6 @@ body
 }
 .my-alert-default
 {
-	width: 200px !important;
 	position: absolute !important;
 	right: 20px !important;
 	top: 100px !important;
@@ -169,4 +168,9 @@ body
 	border-bottom-left-radius: 0 !important;
 	border-left: 4px solid #0f80db !important;
 	color: #fff;
+}
+.my-alert-default .close
+{
+	color: #fff !important;
+	margin-left: 20px !important;
 }
