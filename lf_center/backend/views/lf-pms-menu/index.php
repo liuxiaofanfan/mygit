@@ -47,7 +47,8 @@ $this->registerJs('
                 'value' => function($model){
                     return "<span class='glyphicon glyphicon-".$model->icon."'></span>";
                 },
-                'format' => 'raw', 
+                'format' => 'raw',
+                'headerOptions' => ['width' => '60'],
             ],
             ['class' => 'yii\grid\ActionColumn'],
         ],
