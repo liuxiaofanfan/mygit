@@ -125,4 +125,16 @@ class MenuHelper{
 	    }
 	    return $newMenu;
 	}
+
+	/**
+	 * 通过菜单id 返回菜单名称
+	 * @param  [type] $menu_id [菜单ID]
+	 * @return [type]          [description]
+	 */
+	public static function getMenuNameById($menu_id){
+		$menu = LfPmsMenu::findOne(['menu_id' => $menu_id]);
+		if($menu){
+			return $menu->menu_name;
+		}
+	}
 }

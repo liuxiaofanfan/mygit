@@ -1,5 +1,6 @@
 <?php
 
+use common\helper\rbac\MenuHelper;
 use yii\grid\GridView;
 use yii\helpers\Html;
 use yii\web\View;
@@ -40,7 +41,13 @@ $this->registerJs('
             'menu_name',
             'menu_level',
             'parent_id',
-            'target_url:url',
+            [
+                'attribute' => 'parent_id',
+                'value' => function($model){
+                    return MenuHelper::getMenuNameById($model->menu_id);
+                }
+            ],
+            'target_url',
             'sequence',
             [
                 'attribute' => 'icon',
