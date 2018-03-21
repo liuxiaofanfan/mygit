@@ -9,9 +9,12 @@ use yii\helpers\Html;
 
 $this->title = Yii::t('backend', 'Backend Sign In');
 
-backend\assets\AppAsset::register($this);
-backend\assets\AppAsset::addCss($this, 'css/back_login.css');
-backend\assets\AppAsset::addScript($this, 'js/site/login.js');
+// AppAsset::register($this);
+// AppAsset::addCss($this, 'css/back_login.css');
+// AppAsset::addScript($this, 'js/site/login.js');
+
+$this->registerCssFile('css/back_login.css');
+$this->registerJsFile('js/site/login.js');
 
 $fieldOptions1 = [
     'options' => ['class' => 'form-group has-feedback login-input'],
