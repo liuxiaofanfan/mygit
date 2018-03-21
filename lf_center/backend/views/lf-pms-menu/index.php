@@ -62,7 +62,7 @@ $this->registerJs('
             ],
             [
                 'class' => 'yii\grid\ActionColumn',
-                'template' => '{view} {update} {delete}',
+                'template' => '{view}{update}{delete}',
                 'buttons' => [
                     'view' => function($url, $model, $key){
                         $options = [
@@ -86,7 +86,7 @@ $this->registerJs('
                             'aria-label' => Yii::t('common', 'Opt_Delete'),
                             'data-pjax' => '0',
                         ];
-                        return Html::a('<span class="glyphicon glyphicon-trash', $url, $options);
+                        return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, $options);
                     },
                 ],
             ],
