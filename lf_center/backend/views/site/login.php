@@ -2,7 +2,6 @@
 use backend\assets\AppAsset;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
-use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -10,9 +9,9 @@ use yii\widgets\Pjax;
 
 $this->title = Yii::t('backend', 'Backend Sign In');
 
-// AppAsset::register($this);
-// AppAsset::addCss($this, 'css/back_login.css');
-// AppAsset::addScript($this, 'js/site/login.js');
+AppAsset::register($this);
+AppAsset::addCss($this, 'css/back_login.css');
+AppAsset::addScript($this, 'js/site/login.js');
 
 $fieldOptions1 = [
     'options' => ['class' => 'form-group has-feedback login-input'],
@@ -30,8 +29,6 @@ $fieldOptions2 = [
         <div class="header-content">
             <div class="head-left">
                 <span class="icon"></span>
-                <? Pjax::begin(); ?>
-                <? Pjax::end(); ?>
                 <span class="name"><?= Yii::t('backend', 'DianYing Backend Manager Web') ?></span>
             </div>
             <div class="head-right">
