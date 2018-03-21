@@ -40,11 +40,10 @@ $this->registerJs('
             'menu_id',
             'menu_name',
             'menu_level',
-            'parent_id',
             [
                 'attribute' => 'parent_id',
                 'value' => function($model){
-                    return MenuHelper::getMenuNameById($model->menu_id);
+                    return MenuHelper::getMenuNameById($model->parent_id);
                 }
             ],
             'target_url',
