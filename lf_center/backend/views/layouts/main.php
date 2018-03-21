@@ -1,17 +1,8 @@
 <?php
-use backend\assets\AppAsset;
 use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-
-// AppAsset::register($this);
-// if(isset(Yii::$app->session['theame']) && Yii::$app->session['theame'] == "dark"){
-//     AppAsset::addCss($this, 'css/mytheame/mytheame_dark.css');
-// }else{
-//     AppAsset::addCss($this, 'css/mytheame/mytheame_light.css');
-// }
-
 
 if (Yii::$app->controller->action->id === 'login') { 
 /**
@@ -31,6 +22,12 @@ if (Yii::$app->controller->action->id === 'login') {
     }
 
     dmstr\web\AdminLteAsset::register($this);
+
+    if(isset(Yii::$app->session['theame']) && Yii::$app->session['theame'] == "dark"){
+        backend\assets\AppAsset::addCss($this, 'css/mytheame/mytheame_dark.css');
+    }else{
+        backend\assets\AppAsset::addCss($this, 'css/mytheame/mytheame_light.css');
+    }
 
     $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
     ?>
