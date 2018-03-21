@@ -60,7 +60,10 @@ $this->registerJs('
                 'format' => 'raw',
                 'headerOptions' => ['width' => '60'],
             ],
-            ['class' => 'yii\grid\ActionColumn'],
+            [
+                'class' => 'yii\grid\ActionColumn',
+                'header' => Yii::t('common' ,'Operation'),
+            ],
         ],
     ]); ?>
     <?php Pjax::end(); ?>

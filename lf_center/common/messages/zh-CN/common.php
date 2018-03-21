@@ -1,5 +1,5 @@
 <?php
 
 return [
-	'User ID' => '用户ID',
+	'Operation' => '操作',
 ];
