@@ -25,8 +25,8 @@ return [
         'user' => [
             'identityClass' => 'common\models\LfPmsUser',
             'enableAutoLogin' => false,
-            // 'authTimeout' => 10, //use for test
-            'authTimeout' => 10*60,
+            'authTimeout' => 10, //use for test
+            // 'authTimeout' => 10*60,
         ],
         'session' => [
             // this is the name of the session cookie used for login on the backend
