@@ -42,6 +42,7 @@ $this->registerJs('
             'menu_level',
             [
                 'attribute' => 'parent_id',
+                'label' => 'parent',
                 'value' => function($model){
                     return MenuHelper::getMenuNameById($model->parent_id);
                 }
