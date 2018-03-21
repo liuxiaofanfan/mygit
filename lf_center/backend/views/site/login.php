@@ -26,6 +26,16 @@ $fieldOptions2 = [
 ?>
 
 <?php Pjax::begin(['id' => 'login-pjax']); ?>
+
+<?php 
+    if(Yii::$app->getSession->hasFlash("loginTimeOut")){
+        echo Alert::widget([
+            'options' => ['class' => 'alert-warning the-timeout'],
+            'body' => Yii::t("backend", Yii::$app->getSession()->getFlash("loginTimeOut")),
+        ]);
+    }
+?>
+
 <div class="app">
     <div class="header">
         <div class="header-content">

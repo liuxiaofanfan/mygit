@@ -18,7 +18,7 @@ class BackController extends Controller{
 		#如果是登录方法，直接
 		if(Yii::$app->controller->action->id !== 'login'){
 			if(Yii::$app->user->isGuest){
-				Yii::$app->getSession()->setFlash("loginTimeOut", "登录状态已过期，请重新登录");
+				Yii::$app->getSession()->setFlash("loginTimeOut", "Login Time Out");
 				return $this->redirect(["site/login"]);
 			}else{
 				return true;

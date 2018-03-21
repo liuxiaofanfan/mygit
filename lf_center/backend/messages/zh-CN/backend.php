@@ -14,4 +14,5 @@ return [
 	'You can enter the foreground and background, and you can see the development menu.' => '能进入前台、后台，可以看到开发菜单',
 	'Jiangsu dian ying network technology co. LTD' => '江苏点盈网络科技有限公司',
 
+	'Login Time Out' => '登录状态过期',
 ];
