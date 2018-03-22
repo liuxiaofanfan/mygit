@@ -15,13 +15,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
 AppAsset::register($this);
 AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
-
-$this->registerJs('
-    $("#out-content").on("click", ".delete-batch", function(){
-        var keys = $("#menu-grid").yiiGridView("getSelectedRows");
-        console.log(keys);
-    });
-', View::POS_END);
 ?>
 <div class="lf-pms-menu-index">
 
