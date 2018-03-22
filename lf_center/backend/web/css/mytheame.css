@@ -181,13 +181,16 @@ body
 }
 .msg-box-item
 {
-	background-color: #6ab5f1;
-	border-color: rgb(23, 129, 213);
 	border-radius: 0 4px 4px 0;
 	border-left: 4px solid #0f80db;
 	color: #fff;
 	padding: 14px 10px;
 	margin: 4px;
+}
+.msg-info
+{
+	background-color: #6ab5f1;
+	border-color: rgb(23, 129, 213);
 }
 .msg-box-item span
 {

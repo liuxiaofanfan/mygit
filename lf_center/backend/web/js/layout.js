@@ -10,15 +10,14 @@ $(function(){
 	});
 });
 
-function showFailMsg(str, time, timeout){
+function showInfoMsg(str, time, timeout){
     if(time == null){
         time = 600;
     }
     if(timeout == null){
         timeout = 1000
     }
-    // $("#fail-msg").html(str).slideDown(time);
-    // setTimeout(function(){
-    //     $("#fail-msg").slideUp(time);
-    // },timeout);
+
+    var msg_item = $('<div class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove-circle"></i></div>');
+    $("#msg-box").append(msg_item);
 }
