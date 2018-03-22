@@ -9,10 +9,7 @@ use yii\widgets\Pjax;
 <div class="content-wrapper">
     <?php Pjax::begin(['id' => 'out-content']); ?>
 
-    <div id="msg-box">
-        <div class="msg-box-item"><span>请选择菜单！</span><i class="glyphicon glyphicon-remove-circle"></i></div>
-        <div class="msg-box-item"><span>请选择菜单！</span><i class="glyphicon glyphicon-remove-circle"></i></div>
-    </div>
+    <div id="msg-box"></div>
     
     <section class="content-header">
         <?php if (isset($this->blocks['content-header'])) { ?>
