@@ -12,7 +12,7 @@ $(function(){
 
 function showInfoMsg(str, timeout){
     if(timeout == null){
-        timeout = 2000
+        timeout = 1600
     }
 
     var msg_item = $('<div class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
@@ -22,5 +22,6 @@ function showInfoMsg(str, timeout){
     setTimeout(function(){
         msg_item.removeClass("rubberBand");
         msg_item.addClass("fadeOutRight");
-    }, timeout).then(msg_item.remove());
+        msg_item.remove();
+    }, timeout);
 }
