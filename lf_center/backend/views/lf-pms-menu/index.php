@@ -18,7 +18,7 @@ AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
 
 $this->registerJs('
     $("#content-wrapper").on("click", ".delete-batch", function(){
-        var keys = $("#grid").yiiGridView("getSelectedRows");
+        var keys = $("#menu-grid").yiiGridView("getSelectedRows");
         console.log(keys);
     });
 ', View::POS_END);
@@ -37,7 +37,7 @@ $this->registerJs('
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
-        'id' => 'grid',
+        'id' => 'menu-grid',
         'columns' => [
             // ['class' => 'yii\grid\SerialColumn'],
             ['class' => 'yii\grid\CheckboxColumn', 'name' => 'id'],
