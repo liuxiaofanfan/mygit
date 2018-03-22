@@ -7,7 +7,6 @@ use yii\widgets\Pjax;
 
 ?>
 <div class="content-wrapper">
-    <?php Pjax::begin(['id' => 'out-content']); ?>
     
     <section class="content-header">
         <?php if (isset($this->blocks['content-header'])) { ?>
@@ -37,9 +36,7 @@ use yii\widgets\Pjax;
     <section class="content-body">
         <section class="content">
             <?= Alert::widget() ?>
-            <?php Pjax::begin(['id' => 'main-content']); ?>
-                <?= $content ?>
-            <?php Pjax::end(); ?>
+            <?= $content ?>
         </section>
     </section>
 
