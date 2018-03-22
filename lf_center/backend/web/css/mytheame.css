@@ -164,8 +164,7 @@ body
 	top: 100px !important;
 	background-color: #6ab5f1 !important;
 	border-color: rgb(23, 129, 213) !important;
-	border-top-left-radius: 0 !important;
-	border-bottom-left-radius: 0 !important;
+	border-radius: 0 4px 4px 0 !important;
 	border-left: 4px solid #0f80db !important;
 	color: #fff;
 }

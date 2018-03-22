@@ -9,7 +9,7 @@ use yii\widgets\Pjax;
 <div class="content-wrapper">
     <?php Pjax::begin(['id' => 'out-content']); ?>
 
-    <div id="fail-msg"></div>
+    <div id="fail-msg" class="my-alert-default"></div>
     
     <section class="content-header">
         <?php if (isset($this->blocks['content-header'])) { ?>
