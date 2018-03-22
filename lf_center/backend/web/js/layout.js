@@ -12,16 +12,17 @@ $(function(){
 
 function showInfoMsg(str, timeout){
     if(timeout == null){
-        timeout = 1600
+        timeout = 2000;
     }
 
-    var msg_item = $('<div class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
+    var id = "msg_"+time();
+    var msg_item = $('<div id="'+id+'" class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
     $("#msg-box").append(msg_item);
     msg_item.addClass("animated rubberBand");
 
     setTimeout(function(){
         msg_item.removeClass("rubberBand");
         msg_item.addClass("fadeOutRight");
-        msg_item.remove();
+        $("#id").remove();
     }, timeout);
 }
