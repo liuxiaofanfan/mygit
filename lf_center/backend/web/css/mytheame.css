@@ -181,10 +181,10 @@ body
 }
 .msg-box-item
 {
-	border-radius: 0 4px 4px 0;
+	border-radius: 0 2px 2px 0;
 	border-left: 4px solid #0f80db;
 	color: #fff;
-	padding: 14px 10px;
+	padding: 12px 10px;
 	margin: 4px;
 }
 .msg-info
@@ -194,7 +194,7 @@ body
 }
 .msg-box-item span
 {
-	margin-right: 12px;
+	margin-right: 32px;
 }
 .msg-box-item i
 {
