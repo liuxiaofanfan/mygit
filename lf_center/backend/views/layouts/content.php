@@ -7,6 +7,7 @@ use yii\widgets\Pjax;
 
 ?>
 <div class="content-wrapper">
+    <?php Pjax::begin(['id' => 'out-content']); ?>
     
     <section class="content-header">
         <?php if (isset($this->blocks['content-header'])) { ?>
