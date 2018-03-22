@@ -31,7 +31,7 @@ $this->registerJs('
 
     <p>
         <?= Html::a(Yii::t('backend/pms_menu', 'Create Lf Pms Menu'), ['create'], ['class' => 'btn btn-success']) ?>
-        <?= Html::a(Yii::t('backend/pms_menu', 'Delete Menu Batch'), 'javascript:void(0);', ['class' => 'btn btn-danger delete-batch']) ?>
+        <?= Html::a(Yii::t('backend/pms_menu', 'Delete Menu Batch'), 'javascript:void(0);', ['class' => 'btn btn-danger delete-menu-batch']) ?>
     </p>
 
     <?= GridView::widget([
