@@ -46,6 +46,7 @@ use yii\widgets\Pjax;
     <?php
         if(file_exists('js/'.Yii::$app->controller->id.'/'.Yii::$app->controller->action->id.'.js')){
             AppAsset::register($this);
+            AppAsset::addScript($this, '/assets/8b5da03b/yii.gridView.js');
             AppAsset::addScript($this, 'js/'.Yii::$app->controller->id.'/'.Yii::$app->controller->action->id.'.js');
         }
     ?>
