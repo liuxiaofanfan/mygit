@@ -1,5 +1,6 @@
 <?php
 
+use backend\assets\AppAsset;
 use common\helper\rbac\MenuHelper;
 use yii\grid\GridView;
 use yii\helpers\Html;
@@ -12,12 +13,8 @@ use yii\widgets\Pjax;
 $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
 
-$this->registerJs('
-    $("#out-content").on("click", ".delete-batch", function(){
-        var keys = $("#grid").yiiGridView("getSelectedRows");
-        console.log(keys);
-    });
-', View::POS_END);
+AppAsset::register($this);
+AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
 ?>
 <div class="lf-pms-menu-index">
 
@@ -27,7 +24,7 @@ $this->registerJs('
 
     <p>
         <?= Html::a(Yii::t('backend/pms_menu', 'Create Lf Pms Menu'), ['create'], ['class' => 'btn btn-success']) ?>
-        <?= Html::a(Yii::t('backend/pms_menu', 'Delete Menu Batch'), 'javascript:void(0);', ['class' => 'btn btn-danger delete-batch']) ?>
+        <?= Html::a(Yii::t('backend/pms_menu', 'Delete Menu Batch'), 'javascript:void(0);', ['class' => 'btn btn-danger delete-menu-batch']) ?>
     </p>
 
     <?= GridView::widget([
