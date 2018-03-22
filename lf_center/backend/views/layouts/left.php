@@ -5,32 +5,6 @@ use common\widgets\MyMenu;
 use yii\helpers\Url;
 use yii\web\View;
 
-$this->registerJs('
-function changeSidebarMenu(){
-        $.getJSON("'.Url::toRoute('site/assign-menu').'", {}, function(data){
-            $(".menu-level-one").remove();
-            var menustr = "";
-            $.each(data, function(i, e){
-                menustr += "<li class=\"treeview menu-level-one\"><a href=\"#\"><i class=\"fa fa-folder-open\" style=\"color: ##6a6c6f;\"></i>";
-                menustr += "<span>";
-                menustr += e.menu_name;
-                menustr += "</span><span class=\"pull-right-container\"></span><span class=\"pull-right-container\"><i class=\"fa fa-angle-left pull-right\"></i></span></a>";
-                if(e.items != null){
-                    menustr += "<ul class=\"treeview-menu\">";
-                    $.each(e.items, function(i2, e2){
-                        menustr += "<li><a class=\"son_menu\" href=\"javascript:;\" myhref=\"index.php?r="+e2.target_url+"\"><i class=\"fa fa-file\"></i><span>";
-                        menustr += e2.menu_name;
-                        menustr += "</span></a></li>";
-                    });
-                    menustr += "</ul>";
-                }
-                menustr += "</li>";
-            });
-            $(".sidebar-menu").append(menustr);
-        });
-    }
-    // changeSidebarMenu();
-', View::POS_END);
 ?>
 
 <aside class="main-sidebar">
