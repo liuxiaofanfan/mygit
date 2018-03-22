@@ -8,6 +8,9 @@ use yii\grid\GridView;
 
 AppAsset::register($this);
 ?>
+
+<?= GridView::widget() ?>
+
 <div class="content-wrapper">
     <?php Pjax::begin(['id' => 'out-content']); ?>
     <section class="content-header">
