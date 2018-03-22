@@ -14,12 +14,11 @@ function showInfoMsg(str, timeout){
 	if($("#msg-box div").length >= 10){
 		return false;
 	}
-	
     if(timeout == null){
-        timeout = 2000;
+        timeout = 5000;
     }
-
-    var msg_item = $('<div class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
+    var id = "msg_"+Date.parse(new Date());
+    var msg_item = $('<div class="msg-box-item msg-info"><span>'+id+"|"+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
     $("#msg-box").append(msg_item);
     msg_item.addClass("animated rubberBand");
 
