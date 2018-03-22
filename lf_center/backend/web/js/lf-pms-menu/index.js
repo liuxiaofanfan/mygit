@@ -1,7 +1,12 @@
 $(function(){
 	$("#out-content").on("click", ".delete-menu-batch", function(){
-		alert("123");
         var keys = $("#menu-grid").yiiGridView("getSelectedRows");
-        console.log(keys);
+        //console.log(keys);
+        var count = keys.length;
+        if(count > 0){
+        	return true;
+        }else{
+        	showFailMsg("请选择菜单！");
+        }
     });
 });
