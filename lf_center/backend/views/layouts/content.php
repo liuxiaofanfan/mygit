@@ -10,8 +10,8 @@ use yii\widgets\Pjax;
     <?php Pjax::begin(['id' => 'out-content']); ?>
 
     <div id="msg-box">
-        <div class="msg-box-item"></div>
-        <div class="msg-box-item"></div>
+        <div class="msg-box-item"><span>请选择菜单！</span><i class="glyphicon glyphicon-remove-circle"></i></div>
+        <div class="msg-box-item"><span>请选择菜单！</span><i class="glyphicon glyphicon-remove-circle"></i></div>
     </div>
     
     <section class="content-header">
