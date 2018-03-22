@@ -1,4 +1,5 @@
 <?php
+use backend\assets\AppAsset;
 use dmstr\widgets\Alert;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
@@ -6,6 +7,12 @@ use yii\widgets\Pjax;
 
 ?>
 <div class="content-wrapper">
+
+    <?php
+        AppAsset::register($this);
+        AppAsset::addScript($this, 'js/'.Yii::$app->controller->id.'/'.Yii::$app->controller->action->id.'.js');
+    ?>
+    
     <?php Pjax::begin(['id' => 'out-content']); ?>
     <section class="content-header">
         <?php if (isset($this->blocks['content-header'])) { ?>
