@@ -5,6 +5,7 @@ use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use yii\widgets\Pjax;
 
+AppAsset::register($this);
 ?>
 <div class="content-wrapper">
     <?php Pjax::begin(['id' => 'out-content']); ?>
