@@ -1,5 +1,6 @@
 <?php
 
+use backend\assets\AppAsset;
 use common\helper\rbac\MenuHelper;
 use yii\grid\GridView;
 use yii\helpers\Html;
