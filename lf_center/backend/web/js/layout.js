@@ -15,7 +15,7 @@ function showInfoMsg(str, timeout){
         timeout = 2000;
     }
 
-    var id = "msg_"+time();
+    var id = "msg_"+Date.parse(new Date());
     var msg_item = $('<div id="'+id+'" class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
     $("#msg-box").append(msg_item);
     msg_item.addClass("animated rubberBand");
