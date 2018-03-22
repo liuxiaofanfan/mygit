@@ -17,7 +17,7 @@ AppAsset::register($this);
 AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
 
 $this->registerJs('
-    $("#out-content").on("click", ".delete-batch", function(){
+    $("#content-wrapper").on("click", ".delete-batch", function(){
         var keys = $("#grid").yiiGridView("getSelectedRows");
         console.log(keys);
     });
