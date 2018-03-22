@@ -23,4 +23,6 @@ function showInfoMsg(str, timeout){
         msg_item.removeClass("rubberBand");
         msg_item.addClass("fadeOutRight");
     }, timeout);
+
+    msg_item.remove(".fadeOutRight");
 }
