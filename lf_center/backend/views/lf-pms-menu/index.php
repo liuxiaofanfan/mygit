@@ -13,7 +13,7 @@ use yii\widgets\Pjax;
 $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
 
-// AppAsset::register($this);
+AppAsset::register($this);
 // AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
 ?>
 
