@@ -10,6 +10,7 @@ $(function(){
 	});
 });
 
+//消息提示框
 function showInfoMsg(str, timeout){
 	if($("#msg-box div").length >= 10){
 		return false;

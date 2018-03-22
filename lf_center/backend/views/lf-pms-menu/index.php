@@ -13,8 +13,17 @@ use yii\widgets\Pjax;
 $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
 
-AppAsset::register($this);
-AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
+$this->registerJs('
+    $("#out-content").on("click", ".delete-menu-batch", function(){
+        var keys = $("#menu-grid").yiiGridView("getSelectedRows");
+        var count = keys.length;
+        if(count > 0){
+            return true;
+        }else{
+            showInfoMsg("'.Yii::t('backend/pms_menu', 'Choose Menus First').'");
+        }
+    });
+', View::POS_READY);
 ?>
 <div class="lf-pms-menu-index">
 
