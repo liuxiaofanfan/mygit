@@ -20,4 +20,10 @@ function showInfoMsg(str, time, timeout){
 
     var msg_item = $('<div class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove-circle"></i></div>');
     $("#msg-box").append(msg_item);
+    msg_item.addClass("animated rubberBand");
+
+    setTimeout(function(){
+        msg_item.removeClass("rubberBand");
+        msg_item.addClass("fadeOutRight");
+    }, timeout);
 }
