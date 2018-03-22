@@ -17,8 +17,7 @@ function showInfoMsg(str, timeout){
     if(timeout == null){
         timeout = 2000;
     }
-    var id = "msg_"+Date.parse(new Date());
-    var msg_item = $('<div class="msg-box-item msg-info"><span>'+id+"|"+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
+    var msg_item = $('<div class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
     $("#msg-box").append(msg_item);
     msg_item.addClass("animated rubberBand");
 
@@ -29,5 +28,5 @@ function showInfoMsg(str, timeout){
 
     setTimeout(function(){
         msg_item.remove();
-    }, timeout+500);
+    }, timeout+1000);
 }
