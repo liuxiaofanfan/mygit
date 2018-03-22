@@ -7,13 +7,7 @@ use yii\widgets\Pjax;
 
 ?>
 <div class="content-wrapper">
-
-    
     <?php Pjax::begin(['id' => 'out-content']); ?>
-    <?php
-        AppAsset::register($this);
-        AppAsset::addScript($this, 'js/'.Yii::$app->controller->id.'/'.Yii::$app->controller->action->id.'.js');
-    ?>
     <section class="content-header">
         <?php if (isset($this->blocks['content-header'])) { ?>
             <h1><?= $this->blocks['content-header'] ?></h1>
