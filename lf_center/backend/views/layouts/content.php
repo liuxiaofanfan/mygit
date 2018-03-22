@@ -1,14 +1,10 @@
 <?php
 use dmstr\widgets\Alert;
-use yii\grid\GridView;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use yii\widgets\Pjax;
 ?>
 
-<?= GridView::widget([
-        'dataProvider' => $dataProvider]) ?>
-        
 <div class="content-wrapper">
     <?php Pjax::begin(['id' => 'out-content']); ?>
     <section class="content-header">
