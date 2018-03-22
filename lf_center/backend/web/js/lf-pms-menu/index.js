@@ -6,7 +6,7 @@ $(function(){
         if(count > 0){
         	return true;
         }else{
-        	showFailMsg("请选择菜单！");
+        	showInfoMsg("请选择菜单！");
         }
     });
 });
