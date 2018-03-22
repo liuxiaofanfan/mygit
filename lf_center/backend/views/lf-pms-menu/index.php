@@ -19,7 +19,7 @@ AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
 <div class="lf-pms-menu-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-    <?php Pjax::begin(); ?>
+    <?php Pjax::begin(['id' => 'pjax-container']); ?>
     <?php //echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
