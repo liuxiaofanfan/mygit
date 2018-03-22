@@ -1,15 +1,15 @@
 <?php
 use backend\assets\AppAsset;
 use dmstr\widgets\Alert;
+use yii\grid\GridView;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use yii\widgets\Pjax;
-use yii\grid\GridView;
 
 AppAsset::register($this);
 ?>
-
-<?= GridView::widget() ?>
+<?= GridView::widget([
+        'dataProvider' => null]) ?>
 
 <div class="content-wrapper">
     <?php Pjax::begin(['id' => 'out-content']); ?>
