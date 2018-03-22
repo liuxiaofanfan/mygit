@@ -24,5 +24,5 @@ function showInfoMsg(str, timeout){
         msg_item.addClass("fadeOutRight");
     }, timeout);
 
-    msg_item.remove(".fadeOutRight");
+    msg_item.remove();
 }
