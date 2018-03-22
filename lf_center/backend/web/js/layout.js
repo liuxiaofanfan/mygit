@@ -6,7 +6,7 @@ $(function(){
 		$(this).addClass("active-menu");
 	});
 
-	$("#content-wrapper").on("click", ".delete-menu-batch", function(){
+	$("#out-content").on("click", ".delete-menu-batch", function(){
         var keys = $("#menu-grid").yiiGridView("getSelectedRows");
         console.log(keys);
     });
