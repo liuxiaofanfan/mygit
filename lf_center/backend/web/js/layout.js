@@ -5,4 +5,9 @@ $(function(){
 		$(".child-menu").removeClass("active-menu");
 		$(this).addClass("active-menu");
 	});
+
+	$("#content-wrapper").on("click", ".delete-menu-batch", function(){
+        var keys = $("#menu-grid").yiiGridView("getSelectedRows");
+        console.log(keys);
+    });
 });
