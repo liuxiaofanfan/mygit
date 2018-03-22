@@ -4,6 +4,7 @@ use dmstr\widgets\Alert;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use yii\widgets\Pjax;
+use yii\grid\GridView;
 
 AppAsset::register($this);
 ?>
