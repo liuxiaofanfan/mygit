@@ -14,16 +14,8 @@ $this->title = Yii::t('backend/pms_menu', 'Lf Pms Menus');
 $this->params['breadcrumbs'][] = $this->title;
 
 AppAsset::register($this);
-// AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
+AppAsset::addScript($this, 'js/lf-pms-menu/index.js');
 ?>
-
-<script>
-    $("#out-content").on("click", ".delete-menu-batch", function(){
-        alert("abc");
-        var keys = $("#menu-grid").yiiGridView("getSelectedRows");
-        console.log(keys);
-    });
-</script>
 <div class="lf-pms-menu-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
