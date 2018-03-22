@@ -15,7 +15,7 @@ function showInfoMsg(str, timeout){
 		return false;
 	}
     if(timeout == null){
-        timeout = 5000;
+        timeout = 2000;
     }
     var id = "msg_"+Date.parse(new Date());
     var msg_item = $('<div class="msg-box-item msg-info"><span>'+id+"|"+str+'</span><i class="glyphicon glyphicon-remove"></i></div>');
@@ -29,5 +29,5 @@ function showInfoMsg(str, timeout){
 
     setTimeout(function(){
         msg_item.remove();
-    }, timeout+1000);
+    }, timeout+500);
 }
