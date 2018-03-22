@@ -173,3 +173,9 @@ body
 	color: #fff !important;
 	margin-left: 20px !important;
 }
+#msg-box
+{
+	position: absolute;
+	right: 20px;
+	top: 100px;
+}

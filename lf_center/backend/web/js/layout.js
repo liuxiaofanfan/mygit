@@ -17,8 +17,8 @@ function showFailMsg(str, time, timeout){
     if(timeout == null){
         timeout = 1000
     }
-    $("#fail-msg").html(str).slideDown(time);
-    setTimeout(function(){
-        $("#fail-msg").slideUp(time);
-    },timeout);
+    // $("#fail-msg").html(str).slideDown(time);
+    // setTimeout(function(){
+    //     $("#fail-msg").slideUp(time);
+    // },timeout);
 }
