@@ -7,10 +7,12 @@ $(function(){
 	//         console.log(keys);
 	//     });
  //    });
-
 	$(".child-menu").click(function(){
 		$(".child-menu").removeClass("active-menu");
 		$(this).addClass("active-menu");
+		var url = $(this).attr("href");
+        $.ajaxSetup({cache: false });
+        $(".content").load(url);
 	});
 
 });
