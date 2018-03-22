@@ -10,12 +10,9 @@ $(function(){
 	});
 });
 
-function showInfoMsg(str, time, timeout){
-    if(time == null){
-        time = 600;
-    }
+function showInfoMsg(str, timeout){
     if(timeout == null){
-        timeout = 1000
+        timeout = 2000
     }
 
     var msg_item = $('<div class="msg-box-item msg-info"><span>'+str+'</span><i class="glyphicon glyphicon-remove-circle"></i></div>');
