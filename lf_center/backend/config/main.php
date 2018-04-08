@@ -32,12 +32,30 @@ return [
             // this is the name of the session cookie used for login on the backend
             'name' => 'advanced-backend',
         ],
+        // 'log' => [
+        //     'traceLevel' => YII_DEBUG ? 3 : 0,
+        //     'targets' => [
+        //         [
+        //             'class' => 'yii\log\FileTarget',
+        //             'levels' => ['error', 'warning'],
+        //         ],
+        //     ],
+        // ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
+                ],
+                [
+                    'class' => 'yii\log\FileTarget',
+                    'levels' => ['info'],
+                    'categories' => ['LFTEST'],
+                    'logFile' => '@backend/runtime/logs/MyLog/lf_test.log',
+                    'maxFileSize' => 1024*2,
+                    'maxLogFiles' => 20,
+                    'logVars' => [],
                 ],
             ],
         ],
