@@ -3,11 +3,12 @@
 namespace backend\controllers;
 
 use Yii;
-use common\models\LfPmsMenu;
 use backend\models\LfPmsMenuSearch;
+use common\helper\CommonHelper;
+use common\models\LfPmsMenu;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
 
 /**
  * LfPmsMenuController implements the CRUD actions for LfPmsMenu model.
@@ -66,8 +67,11 @@ class LfPmsMenuController extends BackController
     {
         $model = new LfPmsMenu();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->menu_id]);
+        if ($model->load(Yii::$app->request->post())) {
+            $model->menu_id = CommonHelper::create_uuid();
+            if($model->save()){
+                return $this->redirect(['view', 'id' => $model->menu_id]);
+            }
         }
 
         return $this->render('create', [
