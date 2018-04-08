@@ -139,8 +139,6 @@ class LfPmsUser extends \yii\db\ActiveRecord  implements IdentityInterface
 
     public function validatePassword($password)
     {
-        \Yii::info($password, "LFTEST");
-        \Yii::info($this->password, "LFTEST");
         return \Yii::$app->security->validatePassword($password, $this->password);
     }
     
