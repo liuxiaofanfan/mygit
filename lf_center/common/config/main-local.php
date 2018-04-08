@@ -20,12 +20,12 @@ return [
             'class' => 'yii\caching\MemCache',
             'servers' => [
                 [
-                    'host' => 'localhost',
+                    'host' => '127.0.0.1',
                     'port' => 11211,
                     'weight' => 100,
                 ],
                 [
-                    'host' => 'localhost',
+                    'host' => '127.0.0.1',
                     'port' => 11211,
                     'weight' => 50,
                 ],
