@@ -42,11 +42,11 @@ class WxPic extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'ID' => Yii::t('common/wx_pic', '图片ID'),
-            'PIC_URL' => Yii::t('common/wx_pic', '图片地址'),
-            'PIC_POS' => Yii::t('common/wx_pic', '图片位置'),
-            'UTIME' => Yii::t('common/wx_pic', '上传时间'),
-            'UADMIN' => Yii::t('common/wx_pic', '上传者'),
+            'ID' => Yii::t('common/wx_pic', 'ID'),
+            'PIC_URL' => Yii::t('common/wx_pic', 'PIC_URL'),
+            'PIC_POS' => Yii::t('common/wx_pic', 'PIC_POS'),
+            'UTIME' => Yii::t('common/wx_pic', 'UTIME'),
+            'UADMIN' => Yii::t('common/wx_pic', 'UADMIN'),
         ];
     }
 }

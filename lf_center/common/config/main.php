@@ -25,6 +25,7 @@ return [
                         'common/pms_menu' => 'pms_menu.php',
                         'common/pms_role_menu' => 'pms_role_menu.php',
                         'common/pms_user_role' => 'pms_user_role.php',
+                        'common/wx_pic' => 'wx_pic.php',
                     ],
                 ],
                 'backend*' => [
