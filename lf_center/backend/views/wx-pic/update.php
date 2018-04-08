@@ -5,12 +5,12 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\WxPic */
 
-$this->title = Yii::t('backend/wx-pic', 'Update Wx Pic: {nameAttribute}', [
+$this->title = Yii::t('backend/wx_pic', 'Update Wx Pic: {nameAttribute}', [
     'nameAttribute' => $model->ID,
 ]);
 $this->params['breadcrumbs'][] = ['label' => Yii::t('backend/wx-pic', 'Wx Pics'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->ID, 'url' => ['view', 'id' => $model->ID]];
-$this->params['breadcrumbs'][] = Yii::t('backend/wx-pic', 'Update');
+$this->params['breadcrumbs'][] = Yii::t('backend', 'Update');
 ?>
 <div class="wx-pic-update">
 

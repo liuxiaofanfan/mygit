@@ -15,4 +15,8 @@ return [
 	'Jiangsu dian ying network technology co. LTD' => '江苏点盈网络科技有限公司',
 
 	'Login Time Out' => '登录状态过期',
+
+	'Save' => '保存',
+	'Update' => '更新',
+	
 ];

@@ -10,7 +10,7 @@ $this->title = Yii::t('backend/pms_menu', 'Update Lf Pms Menu: {nameAttribute}',
 ]);
 $this->params['breadcrumbs'][] = ['label' => Yii::t('backend/pms_menu', 'Lf Pms Menus'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->menu_id, 'url' => ['view', 'id' => $model->menu_id]];
-$this->params['breadcrumbs'][] = Yii::t('backend/pms_menu', 'Update');
+$this->params['breadcrumbs'][] = Yii::t('backend', 'Update');
 ?>
 <div class="lf-pms-menu-update">
 
