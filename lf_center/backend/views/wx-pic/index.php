@@ -7,7 +7,7 @@ use yii\widgets\Pjax;
 /* @var $searchModel backend\models\WxPicSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('backend/wx-pic', 'Wx Pics');
+$this->title = Yii::t('backend/wx_pic', 'Wx Pics');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="wx-pic-index">
@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a(Yii::t('backend/wx-pic', 'Create Wx Pic'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a(Yii::t('backend/wx_pic', 'Create Wx Pic'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([

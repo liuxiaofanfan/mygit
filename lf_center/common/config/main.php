@@ -38,6 +38,7 @@ return [
                         'backend/pms_menu' => 'pms_menu.php',
                         'backend/pms_role_menu' => 'pms_role_menu.php',
                         'backend/pms_user_role' => 'pms_user_role.php',
+                        'backend/wx_pic' => 'wx_pic',
                     ],
                 ],
                 'frontend*' => [
