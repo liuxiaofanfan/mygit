@@ -4,8 +4,10 @@ namespace backend\controllers;
 use Yii;
 use common\helper\rbac\MenuHelper;
 use common\models\LoginForm;
+use common\models\Upload;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
+use yii\helpers\Json;
 use yii\web\Controller;
 
 /**
@@ -135,4 +137,28 @@ class SiteController extends Controller
     //     $menu = MenuHelper::getAssignedMenu(Yii::$app->user->identity->user_id);
     //     var_dump($menu);
     // }
+    // 
+    
+    /**
+     * @author liufan
+     * File upload
+     */
+    public function actionUpload()
+    {
+        try {
+            $model = new Upload();
+            $info = $model->upImage();
+    
+            $info && is_array($info) ? exit(Json::htmlEncode($info)) :
+                exit(Json::htmlEncode([
+                    'code' => 1, 
+                    'msg' => 'error'
+                ]));
+        } catch (\Exception $e) {
+            exit(Json::htmlEncode([
+                'code' => 1, 
+                'msg' => $e->getMessage()
+            ]));
+        }
+    }
 }
