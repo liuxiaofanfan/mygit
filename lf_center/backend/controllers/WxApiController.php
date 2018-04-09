@@ -19,7 +19,11 @@ class WxApiController extends Controller{
 		$banner = WxPic::find()->where([
 			'PIC_POS' => 1
 		])->asArray()->all();
-		Yii::info(print_r($banner), "LFTEST");
-		exit(Json::htmlEncode($banner));
+		$res = [];
+		foreach($banner as $key => $value) {
+			$res['ID'] = $value['ID'];
+			$res['PIC_URL'] = Yii::$app->params['domain'].Yii::$app->params['imageUploadSuccessPath'].$value['PIC_URL'];
+		}
+		exit(Json::htmlEncode($res));
 	}
 }
