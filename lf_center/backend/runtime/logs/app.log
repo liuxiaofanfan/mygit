@@ -35914,3 +35914,96 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1523181913.3549
     'REQUEST_TIME' => 1523181913
 ]
+2018-04-09 02:16:58 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][fhmlqutamk4bibfburchf29p51][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/upload' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('upload', Array)
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/upload', Array)
+#2 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-04-09 02:16:58 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][fhmlqutamk4bibfburchf29p51][info][application] $_GET = [
+    'r' => 'site/upload'
+]
+
+$_POST = [
+    '_csrf-backend' => 'B4Fx7jVA7IaEJIX4PS82Ux6n756wl1OzqwLJEdc9DmB0tB-cfwiD4NtDw8BnQEYQJu-E39PZZcvDdP1ou3s2AQ=='
+    'id' => 'WU_FILE_0'
+    'name' => 'logo.png'
+    'type' => 'image/png'
+    'lastModifiedDate' => 'Thu Mar 15 2018 18:05:30 GMT+0800 (中国标准时间)'
+    'size' => '7062'
+]
+
+$_FILES = [
+    'file' => [
+        'name' => 'logo.png'
+        'type' => 'image/png'
+        'tmp_name' => '/tmp/php6BALQQ'
+        'error' => 0
+        'size' => 7062
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'fhmlqutamk4bibfburchf29p51'
+    '_csrf-backend' => '030d59274b042b2a9ca1b4f2cd9d414cd3b51dcff89fdee7dadab490ef85cefea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"s5nrJHof_gF8ZopC8HkAcN6xhv4ylF8a\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523240818
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=site/upload'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryubF5tnLRa4Gvwjo5'
+    'CONTENT_LENGTH' => '7980'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site/upload'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '59837'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '7980'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://192.168.1.115:92'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryubF5tnLRa4Gvwjo5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=fhmlqutamk4bibfburchf29p51; _csrf-backend=030d59274b042b2a9ca1b4f2cd9d414cd3b51dcff89fdee7dadab490ef85cefea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22s5nrJHof_gF8ZopC8HkAcN6xhv4ylF8a%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523240218.5826
+    'REQUEST_TIME' => 1523240218
+]
