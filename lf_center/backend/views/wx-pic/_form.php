@@ -1,19 +1,17 @@
 <?php
 
 use yii\helpers\Html;
+use yii\web\View;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\WxPic */
 /* @var $form yii\widgets\ActiveForm */
-?>
 
-<style>
-#wxpic-pic_url
-{
-	ime-mode: disabled;
-}
-</style>
+$this->registerJs('
+	$("#wxpic-pic_url").attr("readonly", "readonly");
+', View::POS_READY);
+?>
 
 <div class="wx-pic-form">
 
