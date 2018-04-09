@@ -22,3 +22,5 @@
     in /home/liufan/yii2/mygit/lf_center/common/models/LfPmsUser.php:143
     in /home/liufan/yii2/mygit/lf_center/common/models/LoginForm.php:45
     in /home/liufan/yii2/mygit/lf_center/common/models/LoginForm.php:67
+2018-04-09 06:38:00 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][LFTEST] true
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxApiController.php:22
