@@ -14,7 +14,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'PIC_URL', [
     	'inputOptions' => [
-    		'readonly' => 'readonly'
+    		'readonly' => 'readonly',
+    		'placeholder' => '123',
     	]
     ])->widget('manks\FileInput', []) ?>
 
