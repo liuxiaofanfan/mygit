@@ -18,5 +18,6 @@ return [
 
 	'Save' => '保存',
 	'Update' => '更新',
+	'Delete' => '删除',
 	'Are you sure you want to delete this item?' => '确定删除？',
 ];
