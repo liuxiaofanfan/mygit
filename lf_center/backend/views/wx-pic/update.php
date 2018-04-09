@@ -8,7 +8,7 @@ use yii\helpers\Html;
 $this->title = Yii::t('backend/wx_pic', 'Update Wx Pic: {nameAttribute}', [
     'nameAttribute' => $model->ID,
 ]);
-$this->params['breadcrumbs'][] = ['label' => Yii::t('backend/wx-pic', 'Wx Pics'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('backend/wx_pic', 'Wx Pics'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->ID, 'url' => ['view', 'id' => $model->ID]];
 $this->params['breadcrumbs'][] = Yii::t('backend', 'Update');
 ?>
