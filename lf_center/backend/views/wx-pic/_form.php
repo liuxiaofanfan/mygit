@@ -12,7 +12,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'PIC_URL')->widget('manks\FileInput', [])->textInput(['readonly'=>true]) ?>
+    <?= $form->field($model, 'PIC_URL')->widget('manks\FileInput', []) ?>
 
     <?= $form->field($model, 'PIC_POS')->dropDownList(Yii::$app->params['pic_position']) ?>
 
