@@ -14,13 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'PIC_URL')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'PIC_POS')->textInput() ?>
-
     <?= $form->field($model, 'PIC_POS')->dropDownList(Yii::$app->params['pic_position']) ?>
-
-    <?= $form->field($model, 'UTIME')->textInput() ?>
-
-    <?= $form->field($model, 'UADMIN')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('backend', 'Save'), ['class' => 'btn btn-success']) ?>

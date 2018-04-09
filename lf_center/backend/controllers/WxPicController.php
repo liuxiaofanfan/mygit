@@ -12,7 +12,7 @@ use yii\filters\VerbFilter;
 /**
  * WxPicController implements the CRUD actions for WxPic model.
  */
-class WxPicController extends Controller
+class WxPicController extends BackController
 {
     /**
      * @inheritdoc
