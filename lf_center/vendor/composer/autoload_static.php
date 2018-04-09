@@ -33,6 +33,10 @@ class ComposerStaticInit082ded486eab01a5d7133fded8e8e7e4
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'm' => 
+        array (
+            'manks\\' => 6,
+        ),
         'd' => 
         array (
             'dmstr\\' => 6,
@@ -121,6 +125,10 @@ class ComposerStaticInit082ded486eab01a5d7133fded8e8e7e4
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'manks\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bailangzhan/yii2-webuploader',
         ),
         'dmstr\\' => 
         array (
