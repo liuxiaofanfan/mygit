@@ -13,6 +13,13 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'PIC_URL', [
+	    'inputTemplate' => '<div class="input-group"><span class="input-group-addon">@</span>{input}</div>',
+	    'inputOptions' => [
+	        'placeholder' => $model->getAttributeLabel('PIC_URL'),
+	    ],
+	])?>
+
+    <?= $form->field($model, 'PIC_URL', [
     	'inputOptions' => [
     		'readonly' => 'readonly',
     		'placeholder' => '123',
