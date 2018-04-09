@@ -1,6 +1,7 @@
 <?php
 namespace backend\controllers;
 
+use Yii;
 use common\models\WxPic;
 use yii\helpers\Json;
 use yii\web\Controller;
