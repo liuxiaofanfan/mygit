@@ -1,7 +1,8 @@
 <?php
 
-use yii\helpers\Html;
+use common\helper\DbHelper;
 use yii\grid\GridView;
+use yii\helpers\Html;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\WxPicSearch */
@@ -30,7 +31,13 @@ $this->params['breadcrumbs'][] = $this->title;
             'PIC_URL:url',
             'PIC_POS',
             'UTIME',
-            'UADMIN',
+            [
+                'attribute' => 'UADMIN',
+                'label' => Yii::t('common/wx_pic', 'UADMIN'),
+                'value' => function($model){
+                    return DbHelper::getUserNameById($model->UADMIN);
+                }
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
