@@ -35,6 +35,7 @@ class WxPicController extends BackController
      */
     public function actionIndex()
     {
+        Yii::info(Yii::$app->request->hostInfo, "LFTEST");
         $searchModel = new WxPicSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
