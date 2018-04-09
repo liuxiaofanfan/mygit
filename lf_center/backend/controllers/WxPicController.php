@@ -66,8 +66,12 @@ class WxPicController extends Controller
     {
         $model = new WxPic();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->ID]);
+        if ($model->load(Yii::$app->request->post())) {
+            $model->UTIME = date('Y-m-d H:i:s', time());
+            $model->UADMIN = Yii::$app->user->identity->user_id;
+            if($model->save()){
+                return $this->redirect(['view', 'id' => $model->ID]);
+            }
         }
 
         return $this->render('create', [
@@ -86,8 +90,12 @@ class WxPicController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->ID]);
+        if ($model->load(Yii::$app->request->post())) {
+            $model->UTIME = date('Y-m-d H:i:s', time());
+            $model->UADMIN = Yii::$app->user->identity->user_id;
+            if($model->save()){
+                return $this->redirect(['view', 'id' => $model->ID]);
+            }
         }
 
         return $this->render('update', [
