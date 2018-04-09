@@ -28,7 +28,6 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'ID',
-            'PIC_URL:url',
             [
                 'attribute' => 'PIC_URL',
                 'label' => Yii::t('common/wx_pic', 'PIC_URL'),
