@@ -10,6 +10,7 @@ use yii\widgets\ActiveForm;
 
 $this->registerJs('
 	$("#wxpic-pic_url").attr("readonly", "readonly");
+	$("#wxpic-pic_url").css("cursor", "not-allowed");
 ', View::POS_READY);
 ?>
 
