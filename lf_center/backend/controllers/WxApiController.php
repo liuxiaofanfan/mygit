@@ -3,6 +3,7 @@ namespace backend\controllers;
 
 use common\models\WxPic;
 use yii\helpers\Json;
+use yii\web\Controller;
 
 /**
  * @author liufan
