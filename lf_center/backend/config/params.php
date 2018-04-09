@@ -8,7 +8,8 @@ return [
     ],
 
     // 图片服务器的域名设置，拼接保存在数据库中的相对地址，可通过web进行展示
-    'domain' => Yii::$app->request->hostInfo."/",
+    // 'domain' => Yii::$app->request->hostInfo."/",
+    'domain' => "http://192.168.1.115:92/",
     'imageUploadRelativePath' => "./uploads/wx_pic/", // 图片默认上传的目录
     'imageUploadSuccessPath' => "uploads/wx_pic/", // 图片上传成功后，路径前缀
     'webuploader' => [
