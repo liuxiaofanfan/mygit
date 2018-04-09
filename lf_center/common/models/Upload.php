@@ -66,7 +66,7 @@ class Upload extends Model
             return [
                 'code' => 0,
                 'url' => Yii::$app->params['domain'] . $successPath . $fileName,
-                'attachment' => $successPath . $fileName
+                'attachment' => $fileName
             ];
         } else {
             $errors = $model->errors;

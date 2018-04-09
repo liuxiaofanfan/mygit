@@ -30,6 +30,20 @@ $this->params['breadcrumbs'][] = $this->title;
             'ID',
             'PIC_URL:url',
             [
+                'attribute' => 'PIC_URL',
+                'label' => Yii::t('common/wx_pic', 'PIC_URL'),
+                'format' => [
+                    'image',    
+                    [
+                        'width' => '40',
+                        'height' => '40',
+                    ],
+                ],
+                'value' => function($model){
+                    return $model->PIC_URL ? Yii::$app->params['domain'].Yii::$app->params['imageUploadSuccessPath'].$model->PIC_URL: "@backend/web/pic/nopic.png";
+                }
+            ],
+            [
                 'attribute' => 'PIC_POS',
                 'label' => Yii::t('common/wx_pic', 'PIC_POS'),
                 'value' => function($model){
