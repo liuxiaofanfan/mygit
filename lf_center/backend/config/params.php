@@ -3,7 +3,7 @@ return [
     'adminEmail' => 'admin@example.com',
 
     'pic_position' => [
-    	'' => '-请选择图片位置-',
+    	'choose' => '-请选择图片位置-',
     	'1' => '顶部轮播',
     ],
 
