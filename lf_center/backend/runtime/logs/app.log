@@ -36007,3 +36007,2463 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1523240218.5826
     'REQUEST_TIME' => 1523240218
 ]
+2018-04-09 03:15:45 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 03:15:45 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523244345
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '65494'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523243745.0171
+    'REQUEST_TIME' => 1523243745
+]
+2018-04-09 03:16:19 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 03:16:19 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523244379
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '65495'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523243779.7943
+    'REQUEST_TIME' => 1523243779
+]
+2018-04-09 03:17:46 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 03:17:46 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523244466
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '1237'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523243866.1537
+    'REQUEST_TIME' => 1523243866
+]
+2018-04-09 03:17:50 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 03:17:50 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523244470
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '1238'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523243870.0903
+    'REQUEST_TIME' => 1523243870
+]
+2018-04-09 03:20:32 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 03:20:32 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523244632
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '1515'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523244032.5337
+    'REQUEST_TIME' => 1523244032
+]
+2018-04-09 03:20:37 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 03:20:37 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523244637
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '1518'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523244037.2692
+    'REQUEST_TIME' => 1523244037
+]
+2018-04-09 03:25:21 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 03:25:21 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523244921
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '2058'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523244321.8193
+    'REQUEST_TIME' => 1523244321
+]
+2018-04-09 03:39:49 [192.168.1.112][-][qqol7gjqia2stutv1bavdrb9u0][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\widgets\ActiveField::inputTemplate' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('inputTemplate', '<div class="inp...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\widgets\ActiveField), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\widgets\\Act...', Array, Array)
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\widgets\\Act...', Array, Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveForm.php(334): yii\BaseYii::createObject(Array)
+#7 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(20): yii\widgets\ActiveForm->field(Object(common\models\WxPic), 'PIC_URL', Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#11 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php(19): yii\base\View->render('_form', Array)
+#12 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#13 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#15 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('create', Array, Object(backend\controllers\WxPicController))
+#16 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(79): yii\base\Controller->render('create', Array)
+#17 [internal function]: backend\controllers\WxPicController->actionCreate()
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#19 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#21 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/create', Array)
+#22 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#24 {main}
+2018-04-09 03:39:49 [192.168.1.112][-][qqol7gjqia2stutv1bavdrb9u0][info][application] $_GET = [
+    'r' => 'wx-pic/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'akh9v42mdq8n5gimrtu9bqdmb7'
+    '_csrf-backend' => 'e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"NANp3hvNeuPGcqAl8e7JxhhzH761YT_F\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'loginTimeOut' => -1
+    ]
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    'loginTimeOut' => 'Login Time Out'
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/create'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/create'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '3990'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=akh9v42mdq8n5gimrtu9bqdmb7; _csrf-backend=e4e44c13404d3f16cdda3dd3bbb52319c8d09f4c76e1a31adf1d3bb28b52588ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22NANp3hvNeuPGcqAl8e7JxhhzH761YT_F%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523245189.0606
+    'REQUEST_TIME' => 1523245189
+]
+2018-04-09 03:59:44 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 03:59:44 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'd548qnp73l37fi5j3no4ei6ra2'
+    '_csrf-backend' => '286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523246984
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=2'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=2'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '6029'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=d548qnp73l37fi5j3no4ei6ra2; _csrf-backend=286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523246384.0994
+    'REQUEST_TIME' => 1523246384
+]
+2018-04-09 04:00:23 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 04:00:23 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '2'
+    '_pjax' => '#out-content'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'd548qnp73l37fi5j3no4ei6ra2'
+    '_csrf-backend' => '286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523247023
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=2&_pjax=%23out-content'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=2&_pjax=%23out-content'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '6115'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_CSRF_TOKEN' => '2wZdY85b-welofqU_jFiVlYeJDJitVyW-yQzUmJhqd-MWR4whxnOb-Dms-2rSSwBAnJUUBX5O86LcXQHLSfE6Q=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#out-content'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/view&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=d548qnp73l37fi5j3no4ei6ra2; _csrf-backend=286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523246423.3977
+    'REQUEST_TIME' => 1523246423
+]
+2018-04-09 04:00:37 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 04:00:37 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'd548qnp73l37fi5j3no4ei6ra2'
+    '_csrf-backend' => '286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523247037
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=2'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=2'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '6115'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/update&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=d548qnp73l37fi5j3no4ei6ra2; _csrf-backend=286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523246437.1649
+    'REQUEST_TIME' => 1523246437
+]
+2018-04-09 04:00:39 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 04:00:39 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '2'
+    '_pjax' => '#out-content'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'd548qnp73l37fi5j3no4ei6ra2'
+    '_csrf-backend' => '286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523247039
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=2&_pjax=%23out-content'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=2&_pjax=%23out-content'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '5929'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_CSRF_TOKEN' => 'Jzcxq7i91lebr57905kJ2GSB1Gdxe4CJY7xzq3unFedwaHL48f_jP97o14SG4UePMO2kBQY359ET6TT-NOF40Q=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#out-content'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/view&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=d548qnp73l37fi5j3no4ei6ra2; _csrf-backend=286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523246439.7373
+    'REQUEST_TIME' => 1523246439
+]
+2018-04-09 04:00:58 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 04:00:58 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'd548qnp73l37fi5j3no4ei6ra2'
+    '_csrf-backend' => '286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523247058
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '6029'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=d548qnp73l37fi5j3no4ei6ra2; _csrf-backend=286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523246458.8186
+    'REQUEST_TIME' => 1523246458
+]
+2018-04-09 04:01:07 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 04:01:07 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'd548qnp73l37fi5j3no4ei6ra2'
+    '_csrf-backend' => '286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523247067
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=2'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=2'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '5929'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=d548qnp73l37fi5j3no4ei6ra2; _csrf-backend=286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523246467.7685
+    'REQUEST_TIME' => 1523246467
+]
+2018-04-09 04:15:26 [192.168.1.112][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 04:15:26 [192.168.1.112][-][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'd548qnp73l37fi5j3no4ei6ra2'
+    '_csrf-backend' => '286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'loginTimeOut' => 1
+    ]
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    'loginTimeOut' => 'Login Time Out'
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=2'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=2'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '7857'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=d548qnp73l37fi5j3no4ei6ra2; _csrf-backend=286ad28e6a33c9e82e16aa2083d5a3eda1363331c4d838bf92fd6d57111585f5a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22W_CSIB5hEGIyUxNWTlpbwLgXpUGUOFm6%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523247326.688
+    'REQUEST_TIME' => 1523247326
+]
+2018-04-09 05:08:16 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 05:08:16 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251096
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=3'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '12820'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250496.7284
+    'REQUEST_TIME' => 1523250496
+]
+2018-04-09 05:10:13 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 05:10:13 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251213
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=3'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '13109'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250613.5806
+    'REQUEST_TIME' => 1523250613
+]
+2018-04-09 05:10:15 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 05:10:15 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251215
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=3'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '13110'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250615.9286
+    'REQUEST_TIME' => 1523250615
+]
+2018-04-09 05:10:18 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 05:10:18 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Component.php:209
+
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('0', '\xE8\xAF\xB7\xE9\x80\x89\xE6\x8B\xA9\xE5\x9B\xBE\xE7\x89\x87...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/validators/Validator.php(226): yii\BaseYii::createObject(Array)
+#7 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(458): yii\validators\Validator::createValidator('required', Object(common\models\WxPic), Array, Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(420): yii\base\Model->createValidators()
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(189): yii\base\Model->getValidators()
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(806): yii\base\Model->scenarios()
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(808): yii\base\Model->activeAttributes()
+#12 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(230): yii\widgets\ActiveField->getClientOptions()
+#13 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(220): yii\widgets\ActiveField->begin()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#15 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#19 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php(21): yii\base\View->render('_form', Array)
+#20 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#21 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#22 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#23 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('update', Array, Object(backend\controllers\WxPicController))
+#24 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(103): yii\base\Controller->render('update', Array)
+#25 [internal function]: backend\controllers\WxPicController->actionUpdate('3')
+#26 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#27 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#28 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('update', Array)
+#29 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/update', Array)
+#30 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#32 {main}' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php:317
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', '/home/liufan/yi...', 317, Array)
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php(317): trigger_error('Exception (Unkn...', 256)
+#2 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#7 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php(21): yii\base\View->render('_form', Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('update', Array, Object(backend\controllers\WxPicController))
+#12 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(103): yii\base\Controller->render('update', Array)
+#13 [internal function]: backend\controllers\WxPicController->actionUpdate('3')
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('update', Array)
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/update', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#20 {main}
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php:21
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:21
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 05:10:18 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '3'
+    '_pjax' => '#out-content'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251218
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=3&_pjax=%23out-content'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=3&_pjax=%23out-content'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '13109'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_CSRF_TOKEN' => 'FipZ0OeEvZHM630FeCPAVOAd6scofzT5guPSbKdY6oJuZijlqrTn26WZUGQTaIhnuEeAgUE0bZjSjIZf3TuP8Q=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#out-content'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/view&id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250618.8257
+    'REQUEST_TIME' => 1523250618
+]
+2018-04-09 05:10:18 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 05:10:18 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Component.php:209
+
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('0', '\xE8\xAF\xB7\xE9\x80\x89\xE6\x8B\xA9\xE5\x9B\xBE\xE7\x89\x87...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/validators/Validator.php(226): yii\BaseYii::createObject(Array)
+#7 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(458): yii\validators\Validator::createValidator('required', Object(common\models\WxPic), Array, Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(420): yii\base\Model->createValidators()
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(189): yii\base\Model->getValidators()
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(806): yii\base\Model->scenarios()
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(808): yii\base\Model->activeAttributes()
+#12 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(230): yii\widgets\ActiveField->getClientOptions()
+#13 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(220): yii\widgets\ActiveField->begin()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#15 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#19 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php(21): yii\base\View->render('_form', Array)
+#20 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#21 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#22 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#23 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('update', Array, Object(backend\controllers\WxPicController))
+#24 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(103): yii\base\Controller->render('update', Array)
+#25 [internal function]: backend\controllers\WxPicController->actionUpdate('3')
+#26 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#27 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#28 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('update', Array)
+#29 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/update', Array)
+#30 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#32 {main}' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php:317
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php(317): trigger_error('<span class="st...', '<span class="nu...')
+#2 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', '<span class="ke...')
+#7 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php(21): yii\base\View->render('<span class="st...', '[<span class="s...')
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(backend\controllers\WxPicController))
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(backend\controllers\WxPicController))
+#12 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(103): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#13 [internal function]: backend\controllers\WxPicController->actionUpdate('<span class="st...')
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[<span class="s...')
+#15 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#20 {main}
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php:21
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:21
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 05:10:18 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251218
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=3'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '13109'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/view&id=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250618.9194
+    'REQUEST_TIME' => 1523250618
+]
+2018-04-09 05:11:11 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Component.php:209
+
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('0', '\xE8\xAF\xB7\xE9\x80\x89\xE6\x8B\xA9\xE5\x9B\xBE\xE7\x89\x87...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/validators/Validator.php(226): yii\BaseYii::createObject(Array)
+#7 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(458): yii\validators\Validator::createValidator('required', Object(common\models\WxPic), Array, Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(420): yii\base\Model->createValidators()
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(189): yii\base\Model->getValidators()
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(806): yii\base\Model->scenarios()
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(808): yii\base\Model->activeAttributes()
+#12 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(230): yii\widgets\ActiveField->getClientOptions()
+#13 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(220): yii\widgets\ActiveField->begin()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#15 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#19 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php(19): yii\base\View->render('_form', Array)
+#20 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#21 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#22 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#23 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('create', Array, Object(backend\controllers\WxPicController))
+#24 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(79): yii\base\Controller->render('create', Array)
+#25 [internal function]: backend\controllers\WxPicController->actionCreate()
+#26 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#27 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#28 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#29 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/create', Array)
+#30 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#32 {main}' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php:317
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', '/home/liufan/yi...', 317, Array)
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php(317): trigger_error('Exception (Unkn...', 256)
+#2 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#7 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php(19): yii\base\View->render('_form', Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('create', Array, Object(backend\controllers\WxPicController))
+#12 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(79): yii\base\Controller->render('create', Array)
+#13 [internal function]: backend\controllers\WxPicController->actionCreate()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/create', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#20 {main}
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php:21
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php:19
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:79
+2018-04-09 05:11:11 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][info][application] $_GET = [
+    'r' => 'wx-pic/create'
+    '_pjax' => '#p0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251271
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/create&_pjax=%23p0'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/create&_pjax=%23p0'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '13112'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_CSRF_TOKEN' => 'oq4OwiQ4uxqne3akY7XrLRgg7Ys88eMeTlwaOuBaz97a4n_3aQjhUM4JW8UI_qMeQHqHzVW6un8eM04JmjmqrQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250671.1566
+    'REQUEST_TIME' => 1523250671
+]
+2018-04-09 05:11:11 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Component.php:209
+
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('0', '\xE8\xAF\xB7\xE9\x80\x89\xE6\x8B\xA9\xE5\x9B\xBE\xE7\x89\x87...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/validators/Validator.php(226): yii\BaseYii::createObject(Array)
+#7 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(458): yii\validators\Validator::createValidator('required', Object(common\models\WxPic), Array, Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(420): yii\base\Model->createValidators()
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(189): yii\base\Model->getValidators()
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(806): yii\base\Model->scenarios()
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(808): yii\base\Model->activeAttributes()
+#12 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(230): yii\widgets\ActiveField->getClientOptions()
+#13 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(220): yii\widgets\ActiveField->begin()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#15 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#19 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php(19): yii\base\View->render('_form', Array)
+#20 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#21 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#22 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#23 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('create', Array, Object(backend\controllers\WxPicController))
+#24 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(79): yii\base\Controller->render('create', Array)
+#25 [internal function]: backend\controllers\WxPicController->actionCreate()
+#26 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#27 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#28 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#29 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/create', Array)
+#30 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#32 {main}' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php:317
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php(317): trigger_error('<span class="st...', '<span class="nu...')
+#2 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', '<span class="ke...')
+#7 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php(19): yii\base\View->render('<span class="st...', '[<span class="s...')
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(backend\controllers\WxPicController))
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(backend\controllers\WxPicController))
+#12 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(79): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#13 [internal function]: backend\controllers\WxPicController->actionCreate()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#15 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#20 {main}
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php:21
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php:19
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:79
+2018-04-09 05:11:11 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][info][application] $_GET = [
+    'r' => 'wx-pic/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251271
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/create'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/create'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '13112'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250671.2362
+    'REQUEST_TIME' => 1523250671
+]
+2018-04-09 05:13:39 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\validators\RequiredValidator::0' 
+
+in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Component.php:209
+
+Stack trace:
+#0 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('0', '\xE8\xAF\xB7\xE9\x80\x89\xE6\x8B\xA9\xE5\x9B\xBE\xE7\x89\x87...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\validators\RequiredValidator), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\validators\\...', Array, Array)
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\validators\\...', Array, Array)
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/validators/Validator.php(226): yii\BaseYii::createObject(Array)
+#7 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(458): yii\validators\Validator::createValidator('required', Object(common\models\WxPic), Array, Array)
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(420): yii\base\Model->createValidators()
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(189): yii\base\Model->getValidators()
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Model.php(806): yii\base\Model->scenarios()
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(808): yii\base\Model->activeAttributes()
+#12 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(230): yii\widgets\ActiveField->getClientOptions()
+#13 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(220): yii\widgets\ActiveField->begin()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#15 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, NULL)
+#19 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php(19): yii\base\View->render('_form', Array)
+#20 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#21 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/liufan/yi...', Array)
+#22 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/liufan/yi...', Array, Object(backend\controllers\WxPicController))
+#23 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('create', Array, Object(backend\controllers\WxPicController))
+#24 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(79): yii\base\Controller->render('create', Array)
+#25 [internal function]: backend\controllers\WxPicController->actionCreate()
+#26 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#27 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#28 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('create', Array)
+#29 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('wx-pic/create', Array)
+#30 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#32 {main}' in /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php:317
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/ErrorHandler.php(317): trigger_error('<span class="st...', '<span class="nu...')
+#2 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php(21): yii\widgets\ActiveField->__toString()
+#4 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#5 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', '<span class="ke...')
+#7 /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php(19): yii\base\View->render('<span class="st...', '[<span class="s...')
+#8 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(336): require('/home/liufan/yi...')
+#9 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#10 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(backend\controllers\WxPicController))
+#11 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('<span class="st...', '[<span class="s...', Object(backend\controllers\WxPicController))
+#12 /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php(79): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#13 [internal function]: backend\controllers\WxPicController->actionCreate()
+#14 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#15 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 /home/liufan/yii2/mygit/lf_center/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /home/liufan/yii2/mygit/lf_center/backend/web/index.php(17): yii\base\Application->run()
+#20 {main}
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/_form.php:21
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/create.php:19
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:79
+2018-04-09 05:13:39 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][o3bn0g0t5ll05kd0ta7mbhko12][info][application] $_GET = [
+    'r' => 'wx-pic/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523251419
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/create'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/create'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '13437'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523250819.4217
+    'REQUEST_TIME' => 1523250819
+]
+2018-04-09 05:25:55 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 05:25:55 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '4'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523252155
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=4'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=4'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '14610'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523251555.7647
+    'REQUEST_TIME' => 1523251555
+]
+2018-04-09 05:26:14 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 05:26:14 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523252174
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '14614'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523251574.7324
+    'REQUEST_TIME' => 1523251574
+]
+2018-04-09 05:26:35 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/update.php:11
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:103
+2018-04-09 05:26:35 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/update'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'o3bn0g0t5ll05kd0ta7mbhko12'
+    '_csrf-backend' => '71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"xLq5M0ZJir-akKH3XZjFiKYaPoT3zces\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523252195
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/update&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/update&id=1'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '14610'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=o3bn0g0t5ll05kd0ta7mbhko12; _csrf-backend=71916bec4010cd528d4954793bca6ff38e6936180931e31159d3a48982aaaa51a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22xLq5M0ZJir-akKH3XZjFiKYaPoT3zces%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523251595.9333
+    'REQUEST_TIME' => 1523251595
+]
+2018-04-09 06:14:46 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 06:14:46 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'ig03jo9fqj67cuatc4mr51tk00'
+    '_csrf-backend' => 'a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"62xnv7dqaWrOiFtP855ntNOdeKSgGyh9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523255086
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=5'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=5'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '19547'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=ig03jo9fqj67cuatc4mr51tk00; _csrf-backend=a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2262xnv7dqaWrOiFtP855ntNOdeKSgGyh9%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523254486.8225
+    'REQUEST_TIME' => 1523254486
+]
+2018-04-09 06:15:51 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'backend/wx-pic' does not exist: /home/liufan/yii2/mygit/lf_center/backend/messages/zh-CN/backend/wx-pic.php Fallback file does not exist as well: /home/liufan/yii2/mygit/lf_center/backend/messages/zh/backend/wx-pic.php
+    in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:10
+    in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxPicController.php:57
+2018-04-09 06:15:51 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][-][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'ig03jo9fqj67cuatc4mr51tk00'
+    '_csrf-backend' => 'a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"62xnv7dqaWrOiFtP855ntNOdeKSgGyh9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523255151
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=5'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=5'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '19547'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=ig03jo9fqj67cuatc4mr51tk00; _csrf-backend=a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2262xnv7dqaWrOiFtP855ntNOdeKSgGyh9%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523254551.7186
+    'REQUEST_TIME' => 1523254551
+]
+2018-04-09 06:20:41 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][ig03jo9fqj67cuatc4mr51tk00][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'DbHelper' not found' in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:58
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-04-09 06:20:41 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][ig03jo9fqj67cuatc4mr51tk00][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'ig03jo9fqj67cuatc4mr51tk00'
+    '_csrf-backend' => 'a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"62xnv7dqaWrOiFtP855ntNOdeKSgGyh9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523255441
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=5'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=5'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20134'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=ig03jo9fqj67cuatc4mr51tk00; _csrf-backend=a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2262xnv7dqaWrOiFtP855ntNOdeKSgGyh9%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523254841.4405
+    'REQUEST_TIME' => 1523254841
+]
+2018-04-09 06:21:29 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][ig03jo9fqj67cuatc4mr51tk00][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'DbHelper' not found' in /home/liufan/yii2/mygit/lf_center/backend/views/wx-pic/view.php:58
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-04-09 06:21:29 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][ig03jo9fqj67cuatc4mr51tk00][info][application] $_GET = [
+    'r' => 'wx-pic/view'
+    'id' => '5'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => 'ig03jo9fqj67cuatc4mr51tk00'
+    '_csrf-backend' => 'a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"62xnv7dqaWrOiFtP855ntNOdeKSgGyh9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523255489
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-pic/view&id=5'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-pic/view&id=5'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '20134'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.115:92/index.php?r=wx-pic/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=ig03jo9fqj67cuatc4mr51tk00; _csrf-backend=a76c2f577a45683f1324017c8d5e4185c38cab3566f18812b5fa4508ef318b19a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2262xnv7dqaWrOiFtP855ntNOdeKSgGyh9%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523254889.0005
+    'REQUEST_TIME' => 1523254889
+]
+2018-04-09 06:35:50 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][1ldg4fof7vl53va1irc9il1l05][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\Controller' not found' in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxApiController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-04-09 06:35:50 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][1ldg4fof7vl53va1irc9il1l05][info][application] $_GET = [
+    'r' => 'wx-api/get-banner'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => '1ldg4fof7vl53va1irc9il1l05'
+    '_csrf-backend' => '85db44040bc7ab154a8f14cf769b06241cf950964fae92390a96836e2c6a253ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"T2Mozk9pSsoZnX8h3oz3NPoBieuiZFlU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523256350
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-api/get-banner'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-api/get-banner'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '21529'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=1ldg4fof7vl53va1irc9il1l05; _csrf-backend=85db44040bc7ab154a8f14cf769b06241cf950964fae92390a96836e2c6a253ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22T2Mozk9pSsoZnX8h3oz3NPoBieuiZFlU%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523255750.4939
+    'REQUEST_TIME' => 1523255750
+]
+2018-04-09 06:36:57 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][1ldg4fof7vl53va1irc9il1l05][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\Yii' not found' in /home/liufan/yii2/mygit/lf_center/backend/controllers/WxApiController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-04-09 06:36:57 [192.168.1.112][2ec4f0f300d9186d55237c961850161c][1ldg4fof7vl53va1irc9il1l05][info][application] $_GET = [
+    'r' => 'wx-api/get-banner'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr\";}'
+    'advanced-frontend' => 'hmsh9p8p621a6huhgskfbkvec7'
+    '_csrf-frontend' => '6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"tqBkFIW72TWdyshC4rtLXpsYxbacCqHA\";}'
+    'PHPSESSID' => 'ff9jn9kfeapcpvl0m0hat6o400'
+    'advanced-backend' => '1ldg4fof7vl53va1irc9il1l05'
+    '_csrf-backend' => '85db44040bc7ab154a8f14cf769b06241cf950964fae92390a96836e2c6a253ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"T2Mozk9pSsoZnX8h3oz3NPoBieuiZFlU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    'language' => 'zh-CN'
+    'theame' => 'light'
+    '__id' => '2ec4f0f300d9186d55237c961850161c'
+    '__expire' => 1523256417
+]
+
+$_SERVER = [
+    'USER' => 'apache'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'QUERY_STRING' => 'r=wx-api/get-banner'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wx-api/get-banner'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/liufan/yii2/mygit/lf_center/backend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '192.168.1.112'
+    'REMOTE_PORT' => '21689'
+    'SERVER_ADDR' => '192.168.1.115'
+    'SERVER_PORT' => '92'
+    'SERVER_NAME' => '127.0.0.1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_FILENAME' => '/home/liufan/yii2/mygit/lf_center/backend/web/index.php'
+    'HTTP_HOST' => '192.168.1.115:92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=67dfc7837714fa44ae025c449fd7edc8691f4afa98ef6dd71071ece01d569a1ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ya9kDU44-VDe7d2nZkXRwVFX77D4i6kr%22%3B%7D; advanced-frontend=hmsh9p8p621a6huhgskfbkvec7; _csrf-frontend=6241a0a501fab2e95e1b02cce2a1226d85e2d4c9174af3c104b37fcc37c0269aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22tqBkFIW72TWdyshC4rtLXpsYxbacCqHA%22%3B%7D; PHPSESSID=ff9jn9kfeapcpvl0m0hat6o400; advanced-backend=1ldg4fof7vl53va1irc9il1l05; _csrf-backend=85db44040bc7ab154a8f14cf769b06241cf950964fae92390a96836e2c6a253ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22T2Mozk9pSsoZnX8h3oz3NPoBieuiZFlU%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523255817.5971
+    'REQUEST_TIME' => 1523255817
+]
