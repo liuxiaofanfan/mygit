@@ -29,7 +29,7 @@ class WxPic extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['PIC_POS'], 'integer', "请选择图片位置"],
+            [['PIC_POS'], 'integer'],
             [['UTIME'], 'safe'],
             [['PIC_URL'], 'string', 'max' => 100],
             [['UADMIN'], 'string', 'max' => 32],
