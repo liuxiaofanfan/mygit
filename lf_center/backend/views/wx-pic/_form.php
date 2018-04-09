@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'PIC_URL', [
 	    'template' => '<div class="input-group"><span class="input-group-addon">@</span>{input}</div>',
-	    'options' => [
+	    'inputOptions' => [
 	        'placeholder' => $model->getAttributeLabel('PIC_URL'),
 	    ],
 	])?>
