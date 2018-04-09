@@ -8,6 +8,13 @@ use yii\widgets\ActiveForm;
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
+<style>
+#wxpic-pic_url
+{
+	ime-mode: disabled;
+}
+</style>
+
 <div class="wx-pic-form">
 
     <?php $form = ActiveForm::begin(); ?>
