@@ -13,7 +13,9 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'PIC_URL', [
-    	'inputOptions' => ['readonly' => 'true']
+    	'inputOptions' => [
+    		'readonly' => 'readonly'
+    	]
     ])->widget('manks\FileInput', []) ?>
 
     <?= $form->field($model, 'PIC_POS')->dropDownList(Yii::$app->params['pic_position']) ?>
