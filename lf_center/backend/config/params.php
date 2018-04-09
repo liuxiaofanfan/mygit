@@ -18,7 +18,7 @@ return [
         'delimiter' => ',',
         // 基本配置
         'baseConfig' => [
-            'defaultImage' => '/pic/personal/nopic.png',
+            'defaultImage' => '/pic/nopic.png',
             'disableGlobalDnd' => true,
             'accept' => [
                 'title' => 'Images',
