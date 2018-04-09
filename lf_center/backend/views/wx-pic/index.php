@@ -29,7 +29,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'ID',
             'PIC_URL:url',
-            'PIC_POS',
+            [
+                'attribute' => 'PIC_POS',
+                'label' => Yii::t('common/wx_pic', 'PIC_POS'),
+                'value' => function($model){
+                    return Yii::$app->params['pic_position'][$model->PIC_POS];
+                }
+            ],
             'UTIME',
             [
                 'attribute' => 'UADMIN',
