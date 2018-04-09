@@ -34,6 +34,7 @@ return [
         'setWritable' => [
             'backend/runtime',
             'backend/web/assets',
+            'backend/web/pic',
             'backend/models',
             'backend/views',
             'backend/controllers',
