@@ -22,7 +22,7 @@ class WxApiController extends Controller{
 		$res = [];
 		foreach($banner as $key => $value) {
 			$res_item['ID'] = $value['ID'];
-			$res_item['PIC_URL'] = Yii::$app->params['domain'].Yii::$app->params['imageUploadSuccessPath'].$value['PIC_URL'];
+			$res_item['PIC_URL'] = Yii::$app->request->hostInfo."/".Yii::$app->params['imageUploadSuccessPath'].$value['PIC_URL'];
 			array_push($res, $res_item);
 		}
 		exit(Json::htmlEncode($res));
